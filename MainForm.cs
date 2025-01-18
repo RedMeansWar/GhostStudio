@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using GhostStudio.Constants;
 using JRPC_Client;
 using ReaLTaiizor.Forms;
 using XDevkit;
@@ -24,7 +21,8 @@ namespace GhostStudio
         public MainForm()
         {
             InitializeComponent();
-            InitConnection();
+            Thread.Sleep(1000);
+            InitStartup();
         }
 
         private void InitConnection()
@@ -82,19 +80,6 @@ namespace GhostStudio
 
         private void TitleIdTimer(object sender, EventArgs e)
         {
-            uint boardTemp = jtag.GetTemperature(TemperatureType.MotherBoard);
-            uint cpuTemp = jtag.GetTemperature(TemperatureType.CPU);
-            uint gpuTemp = jtag.GetTemperature(TemperatureType.GPU);
-            uint ramTemp = jtag.GetTemperature(TemperatureType.EDRAM);
-
-            MoBoTempTextbox.Text = $"Motherboard Temperature: {boardTemp} °C";
-            CpuTempTextbox.Text = $"CPU Temperature: {cpuTemp} °C";
-            GpuTempTextbox.Text = $"GPU Temperature: {gpuTemp} °C";
-            RamTempTextbox.Text = $"RAM Temperature: {ramTemp} °C";
-        }
-
-        private void TemperatureTimer(object sender, EventArgs e)
-        {
             try
             {
                 TitleIdTextbox.Text = $"Title ID: {jtag.XamGetCurrentTitleId()}";
@@ -108,12 +93,50 @@ namespace GhostStudio
                 Console.WriteLine($"Error: {ex.Message}\nTrace: {ex.StackTrace}");
             }
         }
+
+        private void TemperatureTimer(object sender, EventArgs e)
+        {
+            uint boardTemp = jtag.GetTemperature(TemperatureType.MotherBoard);
+            uint cpuTemp = jtag.GetTemperature(TemperatureType.CPU);
+            uint gpuTemp = jtag.GetTemperature(TemperatureType.GPU);
+            uint ramTemp = jtag.GetTemperature(TemperatureType.EDRAM);
+
+            if (firstRun)
+            {
+                SettingsManager.Settings.ShowTempsInFahrenheit = false;
+            }
+
+            MoBoTempTextbox.Text = SettingsManager.Settings.ShowTempsInFahrenheit ? $"Motherboard Temperature: {boardTemp.ConvertToFahrenheit()} °F" : $"Motherboard Temperature: {boardTemp} °C";
+            CpuTempTextbox.Text = SettingsManager.Settings.ShowTempsInFahrenheit ? $"CPU Temperature: {cpuTemp.ConvertToFahrenheit()} °F" : $"CPU Temperature: {cpuTemp} °C";
+            GpuTempTextbox.Text = SettingsManager.Settings.ShowTempsInFahrenheit ? $"GPU Temperature: {gpuTemp.ConvertToFahrenheit()} °F" : $"GPU Temperature: {gpuTemp} °C";
+            RamTempTextbox.Text = SettingsManager.Settings.ShowTempsInFahrenheit ? $"RAM Temperature: {ramTemp.ConvertToFahrenheit()} °F" : $"RAM Temperature: {ramTemp} °C";
+        }
         #endregion
 
         #region Methods
         private void ShowMessageBox(string message, MessageBoxButtons button = MessageBoxButtons.OK) => MessageBox.Show(message, "GhostStudio", button);
 
         private void ConsoleNotConnected() => ShowMessageBox("Failed to connect to console! Please ensure that you have JRPC2.xex or Neighborhood is connected.");
+
+        private void InitStartup()
+        {
+            SettingsManager.LoadSettings();
+
+            if (!SettingsManager.SettingsFileExists() && firstRun)
+            {
+                ShowMessageBox("Welcome to GhostStudio! Lets set you up for the first time.");
+
+                SettingsManager.LoadDefaultSettings();
+                SettingsManager.SaveSettings();
+
+                firstRun = false;
+            }
+
+            if (!firstRun && SettingsManager.SettingsFileExists() && SettingsManager.Settings.AutoConnectToConsole)
+            {
+                InitConnection();
+            }
+        }
         #endregion
 
         #region Buttons
@@ -153,7 +176,7 @@ namespace GhostStudio
 
         private void TakeScreenshotButton_Click(object sender, EventArgs e)
         {
-
+            ShowMessageBox("This feature has been implemented yet!");
         }
 
         private void OpenTrayButton_Click(object sender, EventArgs e)
@@ -190,6 +213,11 @@ namespace GhostStudio
             {
                 Console.WriteLine(ex.ToString(), ex.StackTrace);
             }
+        }
+
+        private void ttttttt_Click(object sender, EventArgs e)
+        {
+            ShowMessageBox("This feature has been implemented yet!");
         }
 
         private void RestartWarmButton_Click(object sender, EventArgs e)

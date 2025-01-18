@@ -215,10 +215,10 @@
             this.CpuKeyTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.CpuKeyTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.CpuKeyTextbox.Enabled = false;
-            this.CpuKeyTextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CpuKeyTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CpuKeyTextbox.ForeColor = System.Drawing.Color.White;
             this.CpuKeyTextbox.Hint = "";
-            this.CpuKeyTextbox.Location = new System.Drawing.Point(6, 187);
+            this.CpuKeyTextbox.Location = new System.Drawing.Point(2, 187);
             this.CpuKeyTextbox.MaxLength = 32767;
             this.CpuKeyTextbox.Multiline = false;
             this.CpuKeyTextbox.Name = "CpuKeyTextbox";
@@ -227,7 +227,7 @@
             this.CpuKeyTextbox.SelectedText = "";
             this.CpuKeyTextbox.SelectionLength = 0;
             this.CpuKeyTextbox.SelectionStart = 0;
-            this.CpuKeyTextbox.Size = new System.Drawing.Size(336, 38);
+            this.CpuKeyTextbox.Size = new System.Drawing.Size(354, 36);
             this.CpuKeyTextbox.TabIndex = 3;
             this.CpuKeyTextbox.TabStop = false;
             this.CpuKeyTextbox.Text = "CPU Key:";
@@ -240,10 +240,10 @@
             this.DashboardTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.DashboardTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.DashboardTextbox.Enabled = false;
-            this.DashboardTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.DashboardTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.DashboardTextbox.ForeColor = System.Drawing.Color.White;
             this.DashboardTextbox.Hint = "";
-            this.DashboardTextbox.Location = new System.Drawing.Point(6, 235);
+            this.DashboardTextbox.Location = new System.Drawing.Point(2, 235);
             this.DashboardTextbox.MaxLength = 32767;
             this.DashboardTextbox.Multiline = false;
             this.DashboardTextbox.Name = "DashboardTextbox";
@@ -252,7 +252,7 @@
             this.DashboardTextbox.SelectedText = "";
             this.DashboardTextbox.SelectionLength = 0;
             this.DashboardTextbox.SelectionStart = 0;
-            this.DashboardTextbox.Size = new System.Drawing.Size(336, 38);
+            this.DashboardTextbox.Size = new System.Drawing.Size(354, 36);
             this.DashboardTextbox.TabIndex = 4;
             this.DashboardTextbox.TabStop = false;
             this.DashboardTextbox.Text = "Dashboard Version:";
@@ -265,10 +265,10 @@
             this.ConsoleTypeTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.ConsoleTypeTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.ConsoleTypeTextbox.Enabled = false;
-            this.ConsoleTypeTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ConsoleTypeTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.ConsoleTypeTextbox.ForeColor = System.Drawing.Color.White;
             this.ConsoleTypeTextbox.Hint = "";
-            this.ConsoleTypeTextbox.Location = new System.Drawing.Point(6, 283);
+            this.ConsoleTypeTextbox.Location = new System.Drawing.Point(2, 283);
             this.ConsoleTypeTextbox.MaxLength = 32767;
             this.ConsoleTypeTextbox.Multiline = false;
             this.ConsoleTypeTextbox.Name = "ConsoleTypeTextbox";
@@ -277,7 +277,7 @@
             this.ConsoleTypeTextbox.SelectedText = "";
             this.ConsoleTypeTextbox.SelectionLength = 0;
             this.ConsoleTypeTextbox.SelectionStart = 0;
-            this.ConsoleTypeTextbox.Size = new System.Drawing.Size(336, 38);
+            this.ConsoleTypeTextbox.Size = new System.Drawing.Size(354, 36);
             this.ConsoleTypeTextbox.TabIndex = 5;
             this.ConsoleTypeTextbox.TabStop = false;
             this.ConsoleTypeTextbox.Text = "Console Type:";
@@ -290,10 +290,10 @@
             this.IpAddressTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.IpAddressTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.IpAddressTextbox.Enabled = false;
-            this.IpAddressTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.IpAddressTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.IpAddressTextbox.ForeColor = System.Drawing.Color.White;
             this.IpAddressTextbox.Hint = "";
-            this.IpAddressTextbox.Location = new System.Drawing.Point(6, 331);
+            this.IpAddressTextbox.Location = new System.Drawing.Point(2, 331);
             this.IpAddressTextbox.MaxLength = 32767;
             this.IpAddressTextbox.Multiline = false;
             this.IpAddressTextbox.Name = "IpAddressTextbox";
@@ -302,7 +302,7 @@
             this.IpAddressTextbox.SelectedText = "";
             this.IpAddressTextbox.SelectionLength = 0;
             this.IpAddressTextbox.SelectionStart = 0;
-            this.IpAddressTextbox.Size = new System.Drawing.Size(336, 38);
+            this.IpAddressTextbox.Size = new System.Drawing.Size(354, 36);
             this.IpAddressTextbox.TabIndex = 6;
             this.IpAddressTextbox.TabStop = false;
             this.IpAddressTextbox.Text = "IP Address:";
@@ -315,10 +315,10 @@
             this.ConsoleNameTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.ConsoleNameTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.ConsoleNameTextbox.Enabled = false;
-            this.ConsoleNameTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ConsoleNameTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.ConsoleNameTextbox.ForeColor = System.Drawing.Color.White;
             this.ConsoleNameTextbox.Hint = "";
-            this.ConsoleNameTextbox.Location = new System.Drawing.Point(6, 379);
+            this.ConsoleNameTextbox.Location = new System.Drawing.Point(2, 379);
             this.ConsoleNameTextbox.MaxLength = 32767;
             this.ConsoleNameTextbox.Multiline = false;
             this.ConsoleNameTextbox.Name = "ConsoleNameTextbox";
@@ -327,7 +327,7 @@
             this.ConsoleNameTextbox.SelectedText = "";
             this.ConsoleNameTextbox.SelectionLength = 0;
             this.ConsoleNameTextbox.SelectionStart = 0;
-            this.ConsoleNameTextbox.Size = new System.Drawing.Size(336, 38);
+            this.ConsoleNameTextbox.Size = new System.Drawing.Size(354, 36);
             this.ConsoleNameTextbox.TabIndex = 7;
             this.ConsoleNameTextbox.TabStop = false;
             this.ConsoleNameTextbox.Text = "Console Name:";
@@ -340,10 +340,10 @@
             this.TitleIdTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.TitleIdTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.TitleIdTextbox.Enabled = false;
-            this.TitleIdTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.TitleIdTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.TitleIdTextbox.ForeColor = System.Drawing.Color.White;
             this.TitleIdTextbox.Hint = "";
-            this.TitleIdTextbox.Location = new System.Drawing.Point(6, 427);
+            this.TitleIdTextbox.Location = new System.Drawing.Point(2, 427);
             this.TitleIdTextbox.MaxLength = 32767;
             this.TitleIdTextbox.Multiline = false;
             this.TitleIdTextbox.Name = "TitleIdTextbox";
@@ -352,7 +352,7 @@
             this.TitleIdTextbox.SelectedText = "";
             this.TitleIdTextbox.SelectionLength = 0;
             this.TitleIdTextbox.SelectionStart = 0;
-            this.TitleIdTextbox.Size = new System.Drawing.Size(336, 38);
+            this.TitleIdTextbox.Size = new System.Drawing.Size(354, 36);
             this.TitleIdTextbox.TabIndex = 8;
             this.TitleIdTextbox.TabStop = false;
             this.TitleIdTextbox.Text = "Title ID:";
@@ -365,10 +365,10 @@
             this.CpuTempTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.CpuTempTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.CpuTempTextbox.Enabled = false;
-            this.CpuTempTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.CpuTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.CpuTempTextbox.ForeColor = System.Drawing.Color.White;
             this.CpuTempTextbox.Hint = "";
-            this.CpuTempTextbox.Location = new System.Drawing.Point(6, 475);
+            this.CpuTempTextbox.Location = new System.Drawing.Point(2, 475);
             this.CpuTempTextbox.MaxLength = 32767;
             this.CpuTempTextbox.Multiline = false;
             this.CpuTempTextbox.Name = "CpuTempTextbox";
@@ -377,7 +377,7 @@
             this.CpuTempTextbox.SelectedText = "";
             this.CpuTempTextbox.SelectionLength = 0;
             this.CpuTempTextbox.SelectionStart = 0;
-            this.CpuTempTextbox.Size = new System.Drawing.Size(336, 38);
+            this.CpuTempTextbox.Size = new System.Drawing.Size(354, 36);
             this.CpuTempTextbox.TabIndex = 9;
             this.CpuTempTextbox.TabStop = false;
             this.CpuTempTextbox.Text = "CPU Temperature:";
@@ -390,10 +390,10 @@
             this.GpuTempTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.GpuTempTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.GpuTempTextbox.Enabled = false;
-            this.GpuTempTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.GpuTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.GpuTempTextbox.ForeColor = System.Drawing.Color.White;
             this.GpuTempTextbox.Hint = "";
-            this.GpuTempTextbox.Location = new System.Drawing.Point(6, 523);
+            this.GpuTempTextbox.Location = new System.Drawing.Point(2, 523);
             this.GpuTempTextbox.MaxLength = 32767;
             this.GpuTempTextbox.Multiline = false;
             this.GpuTempTextbox.Name = "GpuTempTextbox";
@@ -402,7 +402,7 @@
             this.GpuTempTextbox.SelectedText = "";
             this.GpuTempTextbox.SelectionLength = 0;
             this.GpuTempTextbox.SelectionStart = 0;
-            this.GpuTempTextbox.Size = new System.Drawing.Size(336, 38);
+            this.GpuTempTextbox.Size = new System.Drawing.Size(354, 36);
             this.GpuTempTextbox.TabIndex = 10;
             this.GpuTempTextbox.TabStop = false;
             this.GpuTempTextbox.Text = "GPU Temperature:";
@@ -415,10 +415,10 @@
             this.MoBoTempTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.MoBoTempTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.MoBoTempTextbox.Enabled = false;
-            this.MoBoTempTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.MoBoTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.MoBoTempTextbox.ForeColor = System.Drawing.Color.White;
             this.MoBoTempTextbox.Hint = "";
-            this.MoBoTempTextbox.Location = new System.Drawing.Point(6, 571);
+            this.MoBoTempTextbox.Location = new System.Drawing.Point(2, 571);
             this.MoBoTempTextbox.MaxLength = 32767;
             this.MoBoTempTextbox.Multiline = false;
             this.MoBoTempTextbox.Name = "MoBoTempTextbox";
@@ -427,7 +427,7 @@
             this.MoBoTempTextbox.SelectedText = "";
             this.MoBoTempTextbox.SelectionLength = 0;
             this.MoBoTempTextbox.SelectionStart = 0;
-            this.MoBoTempTextbox.Size = new System.Drawing.Size(336, 38);
+            this.MoBoTempTextbox.Size = new System.Drawing.Size(354, 36);
             this.MoBoTempTextbox.TabIndex = 11;
             this.MoBoTempTextbox.TabStop = false;
             this.MoBoTempTextbox.Text = "Motherboard Temperature:";
@@ -440,10 +440,10 @@
             this.RamTempTextbox.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.RamTempTextbox.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
             this.RamTempTextbox.Enabled = false;
-            this.RamTempTextbox.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.RamTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.RamTempTextbox.ForeColor = System.Drawing.Color.White;
             this.RamTempTextbox.Hint = "";
-            this.RamTempTextbox.Location = new System.Drawing.Point(6, 619);
+            this.RamTempTextbox.Location = new System.Drawing.Point(2, 619);
             this.RamTempTextbox.MaxLength = 32767;
             this.RamTempTextbox.Multiline = false;
             this.RamTempTextbox.Name = "RamTempTextbox";
@@ -452,7 +452,7 @@
             this.RamTempTextbox.SelectedText = "";
             this.RamTempTextbox.SelectionLength = 0;
             this.RamTempTextbox.SelectionStart = 0;
-            this.RamTempTextbox.Size = new System.Drawing.Size(336, 38);
+            this.RamTempTextbox.Size = new System.Drawing.Size(354, 36);
             this.RamTempTextbox.TabIndex = 12;
             this.RamTempTextbox.TabStop = false;
             this.RamTempTextbox.Text = "RAM Temperature:";
@@ -484,10 +484,10 @@
             this.MainFormTabPage.DeactiveFontColor = System.Drawing.Color.White;
             this.MainFormTabPage.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.MainFormTabPage.ItemSize = new System.Drawing.Size(120, 40);
-            this.MainFormTabPage.Location = new System.Drawing.Point(348, 39);
+            this.MainFormTabPage.Location = new System.Drawing.Point(358, 39);
             this.MainFormTabPage.Name = "MainFormTabPage";
             this.MainFormTabPage.SelectedIndex = 0;
-            this.MainFormTabPage.Size = new System.Drawing.Size(902, 618);
+            this.MainFormTabPage.Size = new System.Drawing.Size(892, 618);
             this.MainFormTabPage.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.MainFormTabPage.TabIndex = 14;
             // 
@@ -498,7 +498,7 @@
             this.HomeTab.Location = new System.Drawing.Point(4, 44);
             this.HomeTab.Name = "HomeTab";
             this.HomeTab.Padding = new System.Windows.Forms.Padding(3);
-            this.HomeTab.Size = new System.Drawing.Size(894, 570);
+            this.HomeTab.Size = new System.Drawing.Size(890, 570);
             this.HomeTab.TabIndex = 0;
             this.HomeTab.Text = "Home";
             // 
@@ -631,6 +631,7 @@
             this.ttttttt.Size = new System.Drawing.Size(235, 43);
             this.ttttttt.TabIndex = 12;
             this.ttttttt.Text = "....";
+            this.ttttttt.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.ttttttt_Click);
             // 
             // ResetLedsButton
             // 
@@ -913,7 +914,7 @@
             // 
             // PeekPokerTab
             // 
-            this.PeekPokerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.PeekPokerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.PeekPokerTab.Location = new System.Drawing.Point(4, 44);
             this.PeekPokerTab.Name = "PeekPokerTab";
             this.PeekPokerTab.Size = new System.Drawing.Size(894, 570);
@@ -922,7 +923,7 @@
             // 
             // NetworkTab
             // 
-            this.NetworkTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.NetworkTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.NetworkTab.Location = new System.Drawing.Point(4, 44);
             this.NetworkTab.Name = "NetworkTab";
             this.NetworkTab.Size = new System.Drawing.Size(894, 570);
@@ -941,7 +942,7 @@
             this.JRunnerTab.Controls.Add(this.JrNandGroupBox);
             this.JRunnerTab.Location = new System.Drawing.Point(4, 44);
             this.JRunnerTab.Name = "JRunnerTab";
-            this.JRunnerTab.Size = new System.Drawing.Size(894, 570);
+            this.JRunnerTab.Size = new System.Drawing.Size(884, 570);
             this.JRunnerTab.TabIndex = 5;
             this.JRunnerTab.Text = "JRunner";
             // 

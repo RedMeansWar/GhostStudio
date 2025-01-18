@@ -36,7 +36,7 @@
         DR2CaseWestAlt1 = 0x58410B2D,
         DR2CaseWestAlt2 = 0x58410B2E,
         DR2CaseZero = 0x58410ABD,
-        Dr2CaseZeroAlt = 0x58410B20,
+        DR2CaseZeroAlt = 0x58410B20,
 
         // Grand Theft Auto
         GTASanAndreas = 0x545408B8,
