@@ -174,7 +174,7 @@
             this.ConnectToConsoleButton.Location = new System.Drawing.Point(5, 39);
             this.ConnectToConsoleButton.Name = "ConnectToConsoleButton";
             this.ConnectToConsoleButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ConnectToConsoleButton.Size = new System.Drawing.Size(245, 43);
+            this.ConnectToConsoleButton.Size = new System.Drawing.Size(337, 43);
             this.ConnectToConsoleButton.TabIndex = 0;
             this.ConnectToConsoleButton.Text = "Connect To Console";
             this.ConnectToConsoleButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.ConnectToConsoleButton_Click);
@@ -194,7 +194,7 @@
             this.DisconnectFromConsoleButton.Location = new System.Drawing.Point(5, 88);
             this.DisconnectFromConsoleButton.Name = "DisconnectFromConsoleButton";
             this.DisconnectFromConsoleButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.DisconnectFromConsoleButton.Size = new System.Drawing.Size(245, 43);
+            this.DisconnectFromConsoleButton.Size = new System.Drawing.Size(337, 43);
             this.DisconnectFromConsoleButton.TabIndex = 1;
             this.DisconnectFromConsoleButton.Text = "Disconnect From Console";
             // 
@@ -202,7 +202,7 @@
             // 
             this.ConnectionStatusLabel.Font = new System.Drawing.Font("Segoe UI", 11.6F, System.Drawing.FontStyle.Bold);
             this.ConnectionStatusLabel.ForeColor = System.Drawing.Color.Red;
-            this.ConnectionStatusLabel.Location = new System.Drawing.Point(6, 137);
+            this.ConnectionStatusLabel.Location = new System.Drawing.Point(47, 137);
             this.ConnectionStatusLabel.Name = "ConnectionStatusLabel";
             this.ConnectionStatusLabel.Size = new System.Drawing.Size(244, 23);
             this.ConnectionStatusLabel.TabIndex = 2;
@@ -462,7 +462,7 @@
             // 
             this.ConsoleInformationLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConsoleInformationLabel.ForeColor = System.Drawing.Color.White;
-            this.ConsoleInformationLabel.Location = new System.Drawing.Point(6, 163);
+            this.ConsoleInformationLabel.Location = new System.Drawing.Point(6, 164);
             this.ConsoleInformationLabel.Name = "ConsoleInformationLabel";
             this.ConsoleInformationLabel.Size = new System.Drawing.Size(149, 23);
             this.ConsoleInformationLabel.TabIndex = 13;
@@ -521,7 +521,7 @@
             this.foreverTabPage2.Location = new System.Drawing.Point(7, 6);
             this.foreverTabPage2.Name = "foreverTabPage2";
             this.foreverTabPage2.SelectedIndex = 0;
-            this.foreverTabPage2.Size = new System.Drawing.Size(914, 558);
+            this.foreverTabPage2.Size = new System.Drawing.Size(881, 558);
             this.foreverTabPage2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.foreverTabPage2.TabIndex = 0;
             // 
@@ -547,7 +547,7 @@
             this.ConsoleOptionsTab.Location = new System.Drawing.Point(4, 44);
             this.ConsoleOptionsTab.Name = "ConsoleOptionsTab";
             this.ConsoleOptionsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.ConsoleOptionsTab.Size = new System.Drawing.Size(906, 510);
+            this.ConsoleOptionsTab.Size = new System.Drawing.Size(873, 510);
             this.ConsoleOptionsTab.TabIndex = 0;
             this.ConsoleOptionsTab.Text = "Console Options";
             // 
@@ -576,7 +576,7 @@
             this.SendXNotifyButton.Location = new System.Drawing.Point(654, 410);
             this.SendXNotifyButton.Name = "SendXNotifyButton";
             this.SendXNotifyButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.SendXNotifyButton.Size = new System.Drawing.Size(245, 38);
+            this.SendXNotifyButton.Size = new System.Drawing.Size(213, 38);
             this.SendXNotifyButton.TabIndex = 16;
             this.SendXNotifyButton.Text = "Send XNotify";
             // 
@@ -607,9 +607,9 @@
             // ConsoleOptionsSeperator2
             // 
             this.ConsoleOptionsSeperator2.LineColor = System.Drawing.Color.Gray;
-            this.ConsoleOptionsSeperator2.Location = new System.Drawing.Point(6, 336);
+            this.ConsoleOptionsSeperator2.Location = new System.Drawing.Point(6, 339);
             this.ConsoleOptionsSeperator2.Name = "ConsoleOptionsSeperator2";
-            this.ConsoleOptionsSeperator2.Size = new System.Drawing.Size(894, 13);
+            this.ConsoleOptionsSeperator2.Size = new System.Drawing.Size(861, 10);
             this.ConsoleOptionsSeperator2.TabIndex = 13;
             this.ConsoleOptionsSeperator2.Text = "ConsoleOptionsSeperator1";
             // 
@@ -625,10 +625,10 @@
             this.ttttttt.EnabledCalc = true;
             this.ttttttt.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.ttttttt.ForeColor = System.Drawing.Color.White;
-            this.ttttttt.Location = new System.Drawing.Point(655, 258);
+            this.ttttttt.Location = new System.Drawing.Point(632, 258);
             this.ttttttt.Name = "ttttttt";
             this.ttttttt.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ttttttt.Size = new System.Drawing.Size(245, 43);
+            this.ttttttt.Size = new System.Drawing.Size(235, 43);
             this.ttttttt.TabIndex = 12;
             this.ttttttt.Text = "....";
             // 
@@ -647,7 +647,7 @@
             this.ResetLedsButton.Location = new System.Drawing.Point(257, 258);
             this.ResetLedsButton.Name = "ResetLedsButton";
             this.ResetLedsButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ResetLedsButton.Size = new System.Drawing.Size(392, 43);
+            this.ResetLedsButton.Size = new System.Drawing.Size(369, 43);
             this.ResetLedsButton.TabIndex = 11;
             this.ResetLedsButton.Text = "Reset LEDs";
             // 
@@ -668,7 +668,8 @@
             this.CloseTrayButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.CloseTrayButton.Size = new System.Drawing.Size(245, 43);
             this.CloseTrayButton.TabIndex = 10;
-            this.CloseTrayButton.Text = "CloseTray";
+            this.CloseTrayButton.Text = "Close Tray";
+            this.CloseTrayButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.CloseTrayButton_Click);
             // 
             // TakeScreenshotButton
             // 
@@ -682,12 +683,13 @@
             this.TakeScreenshotButton.EnabledCalc = true;
             this.TakeScreenshotButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.TakeScreenshotButton.ForeColor = System.Drawing.Color.White;
-            this.TakeScreenshotButton.Location = new System.Drawing.Point(655, 198);
+            this.TakeScreenshotButton.Location = new System.Drawing.Point(632, 198);
             this.TakeScreenshotButton.Name = "TakeScreenshotButton";
             this.TakeScreenshotButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.TakeScreenshotButton.Size = new System.Drawing.Size(245, 43);
+            this.TakeScreenshotButton.Size = new System.Drawing.Size(235, 43);
             this.TakeScreenshotButton.TabIndex = 9;
             this.TakeScreenshotButton.Text = "Take Screenshot";
+            this.TakeScreenshotButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.TakeScreenshotButton_Click);
             // 
             // ClearCacheButton
             // 
@@ -704,7 +706,7 @@
             this.ClearCacheButton.Location = new System.Drawing.Point(257, 198);
             this.ClearCacheButton.Name = "ClearCacheButton";
             this.ClearCacheButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ClearCacheButton.Size = new System.Drawing.Size(392, 43);
+            this.ClearCacheButton.Size = new System.Drawing.Size(369, 43);
             this.ClearCacheButton.TabIndex = 8;
             this.ClearCacheButton.Text = "Clear Cache";
             // 
@@ -726,13 +728,14 @@
             this.OpenTrayButton.Size = new System.Drawing.Size(245, 43);
             this.OpenTrayButton.TabIndex = 7;
             this.OpenTrayButton.Text = "Open Tray";
+            this.OpenTrayButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.OpenTrayButton_Click);
             // 
             // ConsoleOptionsSeperator1
             // 
             this.ConsoleOptionsSeperator1.LineColor = System.Drawing.Color.Gray;
             this.ConsoleOptionsSeperator1.Location = new System.Drawing.Point(6, 154);
             this.ConsoleOptionsSeperator1.Name = "ConsoleOptionsSeperator1";
-            this.ConsoleOptionsSeperator1.Size = new System.Drawing.Size(894, 13);
+            this.ConsoleOptionsSeperator1.Size = new System.Drawing.Size(861, 13);
             this.ConsoleOptionsSeperator1.TabIndex = 6;
             this.ConsoleOptionsSeperator1.Text = "ConsoleOptionsSeperator1";
             // 
@@ -748,10 +751,10 @@
             this.RestartCurrentGameButton.EnabledCalc = true;
             this.RestartCurrentGameButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.RestartCurrentGameButton.ForeColor = System.Drawing.Color.White;
-            this.RestartCurrentGameButton.Location = new System.Drawing.Point(458, 84);
+            this.RestartCurrentGameButton.Location = new System.Drawing.Point(475, 84);
             this.RestartCurrentGameButton.Name = "RestartCurrentGameButton";
             this.RestartCurrentGameButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.RestartCurrentGameButton.Size = new System.Drawing.Size(442, 43);
+            this.RestartCurrentGameButton.Size = new System.Drawing.Size(392, 43);
             this.RestartCurrentGameButton.TabIndex = 5;
             this.RestartCurrentGameButton.Text = "Restart Current Game";
             // 
@@ -770,7 +773,7 @@
             this.SendToDashboardButton.Location = new System.Drawing.Point(6, 84);
             this.SendToDashboardButton.Name = "SendToDashboardButton";
             this.SendToDashboardButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.SendToDashboardButton.Size = new System.Drawing.Size(442, 43);
+            this.SendToDashboardButton.Size = new System.Drawing.Size(463, 43);
             this.SendToDashboardButton.TabIndex = 4;
             this.SendToDashboardButton.Text = "Send To Dashboard";
             // 
@@ -789,9 +792,10 @@
             this.ShutdownButton.Location = new System.Drawing.Point(655, 10);
             this.ShutdownButton.Name = "ShutdownButton";
             this.ShutdownButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ShutdownButton.Size = new System.Drawing.Size(245, 43);
+            this.ShutdownButton.Size = new System.Drawing.Size(212, 43);
             this.ShutdownButton.TabIndex = 3;
             this.ShutdownButton.Text = "Shutdown Console";
+            this.ShutdownButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.ShutdownButton_Click);
             // 
             // RestartColdButton
             // 
@@ -811,6 +815,7 @@
             this.RestartColdButton.Size = new System.Drawing.Size(392, 43);
             this.RestartColdButton.TabIndex = 2;
             this.RestartColdButton.Text = "Restart Console (Cold)";
+            this.RestartColdButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.RestartColdButton_Click);
             // 
             // RestartWarmButton
             // 
@@ -830,6 +835,7 @@
             this.RestartWarmButton.Size = new System.Drawing.Size(245, 43);
             this.RestartWarmButton.TabIndex = 1;
             this.RestartWarmButton.Text = "Restart Console (Warm)";
+            this.RestartWarmButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.RestartWarmButton_Click);
             // 
             // XuidTab
             // 
@@ -837,43 +843,43 @@
             this.XuidTab.Location = new System.Drawing.Point(4, 44);
             this.XuidTab.Name = "XuidTab";
             this.XuidTab.Padding = new System.Windows.Forms.Padding(3);
-            this.XuidTab.Size = new System.Drawing.Size(906, 510);
+            this.XuidTab.Size = new System.Drawing.Size(873, 510);
             this.XuidTab.TabIndex = 1;
             this.XuidTab.Text = "XUID";
             // 
             // ConsoleExtrasTab
             // 
-            this.ConsoleExtrasTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.ConsoleExtrasTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ConsoleExtrasTab.Location = new System.Drawing.Point(4, 44);
             this.ConsoleExtrasTab.Name = "ConsoleExtrasTab";
-            this.ConsoleExtrasTab.Size = new System.Drawing.Size(906, 510);
+            this.ConsoleExtrasTab.Size = new System.Drawing.Size(873, 510);
             this.ConsoleExtrasTab.TabIndex = 2;
             this.ConsoleExtrasTab.Text = "Console Extras";
             // 
             // KvCheckerTab
             // 
-            this.KvCheckerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.KvCheckerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.KvCheckerTab.Location = new System.Drawing.Point(4, 44);
             this.KvCheckerTab.Name = "KvCheckerTab";
-            this.KvCheckerTab.Size = new System.Drawing.Size(906, 510);
+            this.KvCheckerTab.Size = new System.Drawing.Size(873, 510);
             this.KvCheckerTab.TabIndex = 3;
             this.KvCheckerTab.Text = "KV Checker";
             // 
             // QuickLaunchTab
             // 
-            this.QuickLaunchTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.QuickLaunchTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.QuickLaunchTab.Location = new System.Drawing.Point(4, 44);
             this.QuickLaunchTab.Name = "QuickLaunchTab";
-            this.QuickLaunchTab.Size = new System.Drawing.Size(906, 510);
+            this.QuickLaunchTab.Size = new System.Drawing.Size(873, 510);
             this.QuickLaunchTab.TabIndex = 4;
             this.QuickLaunchTab.Text = "Quick Launch";
             // 
             // DashlaunchEditorTab
             // 
-            this.DashlaunchEditorTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.DashlaunchEditorTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.DashlaunchEditorTab.Location = new System.Drawing.Point(4, 44);
             this.DashlaunchEditorTab.Name = "DashlaunchEditorTab";
-            this.DashlaunchEditorTab.Size = new System.Drawing.Size(906, 510);
+            this.DashlaunchEditorTab.Size = new System.Drawing.Size(873, 510);
             this.DashlaunchEditorTab.TabIndex = 5;
             this.DashlaunchEditorTab.Text = "Dashlaunch Editor";
             // 
@@ -882,7 +888,7 @@
             this.XeBuildTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.XeBuildTab.Location = new System.Drawing.Point(4, 44);
             this.XeBuildTab.Name = "XeBuildTab";
-            this.XeBuildTab.Size = new System.Drawing.Size(906, 510);
+            this.XeBuildTab.Size = new System.Drawing.Size(873, 510);
             this.XeBuildTab.TabIndex = 6;
             this.XeBuildTab.Text = "XeBuild";
             // 
@@ -898,7 +904,7 @@
             // 
             // FileManagerTab
             // 
-            this.FileManagerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+            this.FileManagerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.FileManagerTab.Location = new System.Drawing.Point(4, 44);
             this.FileManagerTab.Name = "FileManagerTab";
             this.FileManagerTab.Size = new System.Drawing.Size(894, 570);

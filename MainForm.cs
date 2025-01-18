@@ -59,6 +59,7 @@ namespace GhostStudio
             {
                 ConnectionStatusLabel.Text = "Connection Status: Disconnect";
                 ConnectionStatusLabel.ForeColor = Color.Red;
+                ConsoleNotConnected();
             }
         }
 
@@ -109,13 +110,99 @@ namespace GhostStudio
         }
         #endregion
 
+        #region Methods
+        private void ShowMessageBox(string message, MessageBoxButtons button = MessageBoxButtons.OK) => MessageBox.Show(message, "GhostStudio", button);
+
+        private void ConsoleNotConnected() => ShowMessageBox("Failed to connect to console! Please ensure that you have JRPC2.xex or Neighborhood is connected.");
+        #endregion
+
         #region Buttons
         private void ConnectToConsoleButton_Click(object sender, EventArgs e)
         {
             InitConnection();
             ConnectToConsoleButton.Text = "Reconnect to Console";
+
+            if (ConnectToConsoleButton.Text == "Reconnect To Console")
+            {
+                jtag.Reconnect();
+                return;
+            }
         }
 
+        private void RestartColdButton_Click(object sender, EventArgs e)
+        {
+            if (jtag.IsConnected())
+            {
+                jtag.RebootConsole(RebootFlag.Cold);
+                return;
+            }
+
+            ConsoleNotConnected();
+        }
+
+        private void ShutdownButton_Click(object sender, EventArgs e)
+        {
+            if (jtag.IsConnected())
+            {
+                jtag.ShutDownConsole();
+                return;
+            }
+
+            ConsoleNotConnected();
+        }
+
+        private void TakeScreenshotButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OpenTrayButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (jtag.IsConnected())
+                {
+                    jtag.Shortcut(XboxShortcuts.OpenTray);
+                    return;
+                }
+
+                ConsoleNotConnected();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString(), ex.StackTrace);
+            }
+        }
+
+        private void CloseTrayButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (jtag.IsConnected())
+                {
+                    jtag.Shortcut(XboxShortcuts.CloseTray);
+                    return;
+                }
+
+                ConsoleNotConnected();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString(), ex.StackTrace);
+            }
+        }
+
+        private void RestartWarmButton_Click(object sender, EventArgs e)
+        {
+            if (jtag.IsConnected())
+            {
+                jtag.RebootConsole(RebootFlag.Warm);
+                return;
+            }
+
+            ConsoleNotConnected();
+        }
+        
 
         #endregion
     }
