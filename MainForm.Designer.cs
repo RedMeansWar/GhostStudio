@@ -47,11 +47,14 @@
             this.HomeTab = new System.Windows.Forms.TabPage();
             this.foreverTabPage2 = new ReaLTaiizor.Controls.ForeverTabPage();
             this.ConsoleOptionsTab = new System.Windows.Forms.TabPage();
+            this.LoadStealthServerButton = new ReaLTaiizor.Controls.FoxButton();
+            this.SetFakeRRODButton = new ReaLTaiizor.Controls.FoxButton();
+            this.UnlockAllAvatarAwardsButton = new ReaLTaiizor.Controls.FoxButton();
             this.XNotifyLabel = new ReaLTaiizor.Controls.FoxLabel();
             this.SendXNotifyButton = new ReaLTaiizor.Controls.FoxButton();
             this.XNotifyTextbox = new ReaLTaiizor.Controls.HopeTextBox();
             this.ConsoleOptionsSeperator2 = new ReaLTaiizor.Controls.Separator();
-            this.ttttttt = new ReaLTaiizor.Controls.FoxButton();
+            this.UnlockAllAchievementsButton = new ReaLTaiizor.Controls.FoxButton();
             this.ResetLedsButton = new ReaLTaiizor.Controls.FoxButton();
             this.CloseTrayButton = new ReaLTaiizor.Controls.FoxButton();
             this.TakeScreenshotButton = new ReaLTaiizor.Controls.FoxButton();
@@ -74,12 +77,39 @@
             this.PeekPokerTab = new System.Windows.Forms.TabPage();
             this.NetworkTab = new System.Windows.Forms.TabPage();
             this.JRunnerTab = new System.Windows.Forms.TabPage();
+            this.hopeGroupBox1 = new ReaLTaiizor.Controls.HopeGroupBox();
+            this.JrCpuKeyLabel = new ReaLTaiizor.Controls.FoxLabel();
+            this.JrSourceDirectoryTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrCpuKeyTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrExtraDirectoryTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrLoadExtraButton = new ReaLTaiizor.Controls.FoxButton();
+            this.JrLoadSourceButton = new ReaLTaiizor.Controls.FoxButton();
+            this.foxButton1 = new ReaLTaiizor.Controls.FoxButton();
+            this.foxButton5 = new ReaLTaiizor.Controls.FoxButton();
+            this.foxButton7 = new ReaLTaiizor.Controls.FoxButton();
             this.JrBootLoadersGroupBox = new ReaLTaiizor.Controls.HopeGroupBox();
             this.JrBootstrapTabPage = new ReaLTaiizor.Controls.ForeverTabPage();
             this.JrBootloadersTab = new System.Windows.Forms.TabPage();
+            this.JrBootloadLDV1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadPD1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadPD3Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadLDV3Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadPD2Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadLDV2Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCGPSlot1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCFPSlot1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCGPSlot0Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.foreverTextBox2 = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCBATextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCETextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCFPSlot0Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCDTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadCBBTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
+            this.JrBootloadConsoleTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
             this.JrKeyVaultTab = new System.Windows.Forms.TabPage();
             this.JrBadBlocksTab = new System.Windows.Forms.TabPage();
             this.JrMiscGroupBox = new ReaLTaiizor.Controls.HopeGroupBox();
+            this.JrIpTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
             this.JrScanIpRangeButton = new ReaLTaiizor.Controls.FoxButton();
             this.JrGetCpuKeyButton = new ReaLTaiizor.Controls.FoxButton();
             this.JrScanDevicesButton = new ReaLTaiizor.Controls.FoxButton();
@@ -116,38 +146,12 @@
             this.JrCreateXellBuildButton = new ReaLTaiizor.Controls.FoxButton();
             this.JrWriteXellButton = new ReaLTaiizor.Controls.FoxButton();
             this.InfoSettingsTab = new System.Windows.Forms.TabPage();
-            this.JrIpTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadConsoleTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCBBTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCDTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCFPSlot0Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCETextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCBATextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.foreverTextBox2 = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCGPSlot0Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCFPSlot1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadCGPSlot1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadLDV2Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadPD2Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadPD3Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadLDV3Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadPD1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrBootloadLDV1Textbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.hopeGroupBox1 = new ReaLTaiizor.Controls.HopeGroupBox();
-            this.foxButton1 = new ReaLTaiizor.Controls.FoxButton();
-            this.foxButton5 = new ReaLTaiizor.Controls.FoxButton();
-            this.foxButton7 = new ReaLTaiizor.Controls.FoxButton();
-            this.JrLoadSourceButton = new ReaLTaiizor.Controls.FoxButton();
-            this.JrLoadExtraButton = new ReaLTaiizor.Controls.FoxButton();
-            this.JrExtraDirectoryTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrCpuKeyTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrSourceDirectoryTextbox = new ReaLTaiizor.Controls.ForeverTextBox();
-            this.JrCpuKeyLabel = new ReaLTaiizor.Controls.FoxLabel();
             this.MainFormTabPage.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.foreverTabPage2.SuspendLayout();
             this.ConsoleOptionsTab.SuspendLayout();
             this.JRunnerTab.SuspendLayout();
+            this.hopeGroupBox1.SuspendLayout();
             this.JrBootLoadersGroupBox.SuspendLayout();
             this.JrBootstrapTabPage.SuspendLayout();
             this.JrBootloadersTab.SuspendLayout();
@@ -156,7 +160,6 @@
             this.JRXeBuildTabPage.SuspendLayout();
             this.JrHomeTab.SuspendLayout();
             this.JrNandGroupBox.SuspendLayout();
-            this.hopeGroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ConnectToConsoleButton
@@ -202,7 +205,7 @@
             // 
             this.ConnectionStatusLabel.Font = new System.Drawing.Font("Segoe UI", 11.6F, System.Drawing.FontStyle.Bold);
             this.ConnectionStatusLabel.ForeColor = System.Drawing.Color.Red;
-            this.ConnectionStatusLabel.Location = new System.Drawing.Point(47, 137);
+            this.ConnectionStatusLabel.Location = new System.Drawing.Point(52, 142);
             this.ConnectionStatusLabel.Name = "ConnectionStatusLabel";
             this.ConnectionStatusLabel.Size = new System.Drawing.Size(244, 23);
             this.ConnectionStatusLabel.TabIndex = 2;
@@ -218,7 +221,7 @@
             this.CpuKeyTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CpuKeyTextbox.ForeColor = System.Drawing.Color.White;
             this.CpuKeyTextbox.Hint = "";
-            this.CpuKeyTextbox.Location = new System.Drawing.Point(2, 187);
+            this.CpuKeyTextbox.Location = new System.Drawing.Point(5, 187);
             this.CpuKeyTextbox.MaxLength = 32767;
             this.CpuKeyTextbox.Multiline = false;
             this.CpuKeyTextbox.Name = "CpuKeyTextbox";
@@ -227,7 +230,7 @@
             this.CpuKeyTextbox.SelectedText = "";
             this.CpuKeyTextbox.SelectionLength = 0;
             this.CpuKeyTextbox.SelectionStart = 0;
-            this.CpuKeyTextbox.Size = new System.Drawing.Size(354, 36);
+            this.CpuKeyTextbox.Size = new System.Drawing.Size(351, 36);
             this.CpuKeyTextbox.TabIndex = 3;
             this.CpuKeyTextbox.TabStop = false;
             this.CpuKeyTextbox.Text = "CPU Key:";
@@ -243,7 +246,7 @@
             this.DashboardTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.DashboardTextbox.ForeColor = System.Drawing.Color.White;
             this.DashboardTextbox.Hint = "";
-            this.DashboardTextbox.Location = new System.Drawing.Point(2, 235);
+            this.DashboardTextbox.Location = new System.Drawing.Point(5, 235);
             this.DashboardTextbox.MaxLength = 32767;
             this.DashboardTextbox.Multiline = false;
             this.DashboardTextbox.Name = "DashboardTextbox";
@@ -252,7 +255,7 @@
             this.DashboardTextbox.SelectedText = "";
             this.DashboardTextbox.SelectionLength = 0;
             this.DashboardTextbox.SelectionStart = 0;
-            this.DashboardTextbox.Size = new System.Drawing.Size(354, 36);
+            this.DashboardTextbox.Size = new System.Drawing.Size(351, 36);
             this.DashboardTextbox.TabIndex = 4;
             this.DashboardTextbox.TabStop = false;
             this.DashboardTextbox.Text = "Dashboard Version:";
@@ -268,7 +271,7 @@
             this.ConsoleTypeTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.ConsoleTypeTextbox.ForeColor = System.Drawing.Color.White;
             this.ConsoleTypeTextbox.Hint = "";
-            this.ConsoleTypeTextbox.Location = new System.Drawing.Point(2, 283);
+            this.ConsoleTypeTextbox.Location = new System.Drawing.Point(5, 283);
             this.ConsoleTypeTextbox.MaxLength = 32767;
             this.ConsoleTypeTextbox.Multiline = false;
             this.ConsoleTypeTextbox.Name = "ConsoleTypeTextbox";
@@ -277,7 +280,7 @@
             this.ConsoleTypeTextbox.SelectedText = "";
             this.ConsoleTypeTextbox.SelectionLength = 0;
             this.ConsoleTypeTextbox.SelectionStart = 0;
-            this.ConsoleTypeTextbox.Size = new System.Drawing.Size(354, 36);
+            this.ConsoleTypeTextbox.Size = new System.Drawing.Size(351, 36);
             this.ConsoleTypeTextbox.TabIndex = 5;
             this.ConsoleTypeTextbox.TabStop = false;
             this.ConsoleTypeTextbox.Text = "Console Type:";
@@ -293,7 +296,7 @@
             this.IpAddressTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.IpAddressTextbox.ForeColor = System.Drawing.Color.White;
             this.IpAddressTextbox.Hint = "";
-            this.IpAddressTextbox.Location = new System.Drawing.Point(2, 331);
+            this.IpAddressTextbox.Location = new System.Drawing.Point(5, 331);
             this.IpAddressTextbox.MaxLength = 32767;
             this.IpAddressTextbox.Multiline = false;
             this.IpAddressTextbox.Name = "IpAddressTextbox";
@@ -302,7 +305,7 @@
             this.IpAddressTextbox.SelectedText = "";
             this.IpAddressTextbox.SelectionLength = 0;
             this.IpAddressTextbox.SelectionStart = 0;
-            this.IpAddressTextbox.Size = new System.Drawing.Size(354, 36);
+            this.IpAddressTextbox.Size = new System.Drawing.Size(351, 36);
             this.IpAddressTextbox.TabIndex = 6;
             this.IpAddressTextbox.TabStop = false;
             this.IpAddressTextbox.Text = "IP Address:";
@@ -318,7 +321,7 @@
             this.ConsoleNameTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.ConsoleNameTextbox.ForeColor = System.Drawing.Color.White;
             this.ConsoleNameTextbox.Hint = "";
-            this.ConsoleNameTextbox.Location = new System.Drawing.Point(2, 379);
+            this.ConsoleNameTextbox.Location = new System.Drawing.Point(5, 379);
             this.ConsoleNameTextbox.MaxLength = 32767;
             this.ConsoleNameTextbox.Multiline = false;
             this.ConsoleNameTextbox.Name = "ConsoleNameTextbox";
@@ -327,7 +330,7 @@
             this.ConsoleNameTextbox.SelectedText = "";
             this.ConsoleNameTextbox.SelectionLength = 0;
             this.ConsoleNameTextbox.SelectionStart = 0;
-            this.ConsoleNameTextbox.Size = new System.Drawing.Size(354, 36);
+            this.ConsoleNameTextbox.Size = new System.Drawing.Size(351, 36);
             this.ConsoleNameTextbox.TabIndex = 7;
             this.ConsoleNameTextbox.TabStop = false;
             this.ConsoleNameTextbox.Text = "Console Name:";
@@ -343,7 +346,7 @@
             this.TitleIdTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.TitleIdTextbox.ForeColor = System.Drawing.Color.White;
             this.TitleIdTextbox.Hint = "";
-            this.TitleIdTextbox.Location = new System.Drawing.Point(2, 427);
+            this.TitleIdTextbox.Location = new System.Drawing.Point(5, 427);
             this.TitleIdTextbox.MaxLength = 32767;
             this.TitleIdTextbox.Multiline = false;
             this.TitleIdTextbox.Name = "TitleIdTextbox";
@@ -352,7 +355,7 @@
             this.TitleIdTextbox.SelectedText = "";
             this.TitleIdTextbox.SelectionLength = 0;
             this.TitleIdTextbox.SelectionStart = 0;
-            this.TitleIdTextbox.Size = new System.Drawing.Size(354, 36);
+            this.TitleIdTextbox.Size = new System.Drawing.Size(351, 36);
             this.TitleIdTextbox.TabIndex = 8;
             this.TitleIdTextbox.TabStop = false;
             this.TitleIdTextbox.Text = "Title ID:";
@@ -368,7 +371,7 @@
             this.CpuTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.CpuTempTextbox.ForeColor = System.Drawing.Color.White;
             this.CpuTempTextbox.Hint = "";
-            this.CpuTempTextbox.Location = new System.Drawing.Point(2, 475);
+            this.CpuTempTextbox.Location = new System.Drawing.Point(5, 475);
             this.CpuTempTextbox.MaxLength = 32767;
             this.CpuTempTextbox.Multiline = false;
             this.CpuTempTextbox.Name = "CpuTempTextbox";
@@ -377,7 +380,7 @@
             this.CpuTempTextbox.SelectedText = "";
             this.CpuTempTextbox.SelectionLength = 0;
             this.CpuTempTextbox.SelectionStart = 0;
-            this.CpuTempTextbox.Size = new System.Drawing.Size(354, 36);
+            this.CpuTempTextbox.Size = new System.Drawing.Size(351, 36);
             this.CpuTempTextbox.TabIndex = 9;
             this.CpuTempTextbox.TabStop = false;
             this.CpuTempTextbox.Text = "CPU Temperature:";
@@ -393,7 +396,7 @@
             this.GpuTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.GpuTempTextbox.ForeColor = System.Drawing.Color.White;
             this.GpuTempTextbox.Hint = "";
-            this.GpuTempTextbox.Location = new System.Drawing.Point(2, 523);
+            this.GpuTempTextbox.Location = new System.Drawing.Point(5, 523);
             this.GpuTempTextbox.MaxLength = 32767;
             this.GpuTempTextbox.Multiline = false;
             this.GpuTempTextbox.Name = "GpuTempTextbox";
@@ -402,7 +405,7 @@
             this.GpuTempTextbox.SelectedText = "";
             this.GpuTempTextbox.SelectionLength = 0;
             this.GpuTempTextbox.SelectionStart = 0;
-            this.GpuTempTextbox.Size = new System.Drawing.Size(354, 36);
+            this.GpuTempTextbox.Size = new System.Drawing.Size(351, 36);
             this.GpuTempTextbox.TabIndex = 10;
             this.GpuTempTextbox.TabStop = false;
             this.GpuTempTextbox.Text = "GPU Temperature:";
@@ -418,7 +421,7 @@
             this.MoBoTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.MoBoTempTextbox.ForeColor = System.Drawing.Color.White;
             this.MoBoTempTextbox.Hint = "";
-            this.MoBoTempTextbox.Location = new System.Drawing.Point(2, 571);
+            this.MoBoTempTextbox.Location = new System.Drawing.Point(5, 571);
             this.MoBoTempTextbox.MaxLength = 32767;
             this.MoBoTempTextbox.Multiline = false;
             this.MoBoTempTextbox.Name = "MoBoTempTextbox";
@@ -427,7 +430,7 @@
             this.MoBoTempTextbox.SelectedText = "";
             this.MoBoTempTextbox.SelectionLength = 0;
             this.MoBoTempTextbox.SelectionStart = 0;
-            this.MoBoTempTextbox.Size = new System.Drawing.Size(354, 36);
+            this.MoBoTempTextbox.Size = new System.Drawing.Size(351, 36);
             this.MoBoTempTextbox.TabIndex = 11;
             this.MoBoTempTextbox.TabStop = false;
             this.MoBoTempTextbox.Text = "Motherboard Temperature:";
@@ -443,7 +446,7 @@
             this.RamTempTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.RamTempTextbox.ForeColor = System.Drawing.Color.White;
             this.RamTempTextbox.Hint = "";
-            this.RamTempTextbox.Location = new System.Drawing.Point(2, 619);
+            this.RamTempTextbox.Location = new System.Drawing.Point(5, 619);
             this.RamTempTextbox.MaxLength = 32767;
             this.RamTempTextbox.Multiline = false;
             this.RamTempTextbox.Name = "RamTempTextbox";
@@ -452,7 +455,7 @@
             this.RamTempTextbox.SelectedText = "";
             this.RamTempTextbox.SelectionLength = 0;
             this.RamTempTextbox.SelectionStart = 0;
-            this.RamTempTextbox.Size = new System.Drawing.Size(354, 36);
+            this.RamTempTextbox.Size = new System.Drawing.Size(351, 36);
             this.RamTempTextbox.TabIndex = 12;
             this.RamTempTextbox.TabStop = false;
             this.RamTempTextbox.Text = "RAM Temperature:";
@@ -498,7 +501,7 @@
             this.HomeTab.Location = new System.Drawing.Point(4, 44);
             this.HomeTab.Name = "HomeTab";
             this.HomeTab.Padding = new System.Windows.Forms.Padding(3);
-            this.HomeTab.Size = new System.Drawing.Size(890, 570);
+            this.HomeTab.Size = new System.Drawing.Size(884, 570);
             this.HomeTab.TabIndex = 0;
             this.HomeTab.Text = "Home";
             // 
@@ -518,21 +521,24 @@
             this.foreverTabPage2.DeactiveFontColor = System.Drawing.Color.White;
             this.foreverTabPage2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.foreverTabPage2.ItemSize = new System.Drawing.Size(120, 40);
-            this.foreverTabPage2.Location = new System.Drawing.Point(7, 6);
+            this.foreverTabPage2.Location = new System.Drawing.Point(3, 9);
             this.foreverTabPage2.Name = "foreverTabPage2";
             this.foreverTabPage2.SelectedIndex = 0;
-            this.foreverTabPage2.Size = new System.Drawing.Size(881, 558);
+            this.foreverTabPage2.Size = new System.Drawing.Size(875, 558);
             this.foreverTabPage2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.foreverTabPage2.TabIndex = 0;
             // 
             // ConsoleOptionsTab
             // 
             this.ConsoleOptionsTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.ConsoleOptionsTab.Controls.Add(this.LoadStealthServerButton);
+            this.ConsoleOptionsTab.Controls.Add(this.SetFakeRRODButton);
+            this.ConsoleOptionsTab.Controls.Add(this.UnlockAllAvatarAwardsButton);
             this.ConsoleOptionsTab.Controls.Add(this.XNotifyLabel);
             this.ConsoleOptionsTab.Controls.Add(this.SendXNotifyButton);
             this.ConsoleOptionsTab.Controls.Add(this.XNotifyTextbox);
             this.ConsoleOptionsTab.Controls.Add(this.ConsoleOptionsSeperator2);
-            this.ConsoleOptionsTab.Controls.Add(this.ttttttt);
+            this.ConsoleOptionsTab.Controls.Add(this.UnlockAllAchievementsButton);
             this.ConsoleOptionsTab.Controls.Add(this.ResetLedsButton);
             this.ConsoleOptionsTab.Controls.Add(this.CloseTrayButton);
             this.ConsoleOptionsTab.Controls.Add(this.TakeScreenshotButton);
@@ -547,15 +553,73 @@
             this.ConsoleOptionsTab.Location = new System.Drawing.Point(4, 44);
             this.ConsoleOptionsTab.Name = "ConsoleOptionsTab";
             this.ConsoleOptionsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.ConsoleOptionsTab.Size = new System.Drawing.Size(873, 510);
+            this.ConsoleOptionsTab.Size = new System.Drawing.Size(867, 510);
             this.ConsoleOptionsTab.TabIndex = 0;
             this.ConsoleOptionsTab.Text = "Console Options";
+            // 
+            // LoadStealthServerButton
+            // 
+            this.LoadStealthServerButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.LoadStealthServerButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.LoadStealthServerButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoadStealthServerButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.LoadStealthServerButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.LoadStealthServerButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.LoadStealthServerButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.LoadStealthServerButton.EnabledCalc = true;
+            this.LoadStealthServerButton.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.LoadStealthServerButton.ForeColor = System.Drawing.Color.White;
+            this.LoadStealthServerButton.Location = new System.Drawing.Point(6, 320);
+            this.LoadStealthServerButton.Name = "LoadStealthServerButton";
+            this.LoadStealthServerButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.LoadStealthServerButton.Size = new System.Drawing.Size(245, 43);
+            this.LoadStealthServerButton.TabIndex = 19;
+            this.LoadStealthServerButton.Text = "Load Stealth Server";
+            // 
+            // SetFakeRRODButton
+            // 
+            this.SetFakeRRODButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.SetFakeRRODButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.SetFakeRRODButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SetFakeRRODButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.SetFakeRRODButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.SetFakeRRODButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.SetFakeRRODButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.SetFakeRRODButton.EnabledCalc = true;
+            this.SetFakeRRODButton.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.SetFakeRRODButton.ForeColor = System.Drawing.Color.White;
+            this.SetFakeRRODButton.Location = new System.Drawing.Point(257, 320);
+            this.SetFakeRRODButton.Name = "SetFakeRRODButton";
+            this.SetFakeRRODButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.SetFakeRRODButton.Size = new System.Drawing.Size(314, 43);
+            this.SetFakeRRODButton.TabIndex = 18;
+            this.SetFakeRRODButton.Text = "Set Fake RROD";
+            // 
+            // UnlockAllAvatarAwardsButton
+            // 
+            this.UnlockAllAvatarAwardsButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.UnlockAllAvatarAwardsButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.UnlockAllAvatarAwardsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UnlockAllAvatarAwardsButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.UnlockAllAvatarAwardsButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.UnlockAllAvatarAwardsButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.UnlockAllAvatarAwardsButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.UnlockAllAvatarAwardsButton.EnabledCalc = true;
+            this.UnlockAllAvatarAwardsButton.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.UnlockAllAvatarAwardsButton.ForeColor = System.Drawing.Color.White;
+            this.UnlockAllAvatarAwardsButton.Location = new System.Drawing.Point(577, 320);
+            this.UnlockAllAvatarAwardsButton.Name = "UnlockAllAvatarAwardsButton";
+            this.UnlockAllAvatarAwardsButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.UnlockAllAvatarAwardsButton.Size = new System.Drawing.Size(284, 43);
+            this.UnlockAllAvatarAwardsButton.TabIndex = 17;
+            this.UnlockAllAvatarAwardsButton.Text = "Unlock All Avatar Awards (Must Be In-Game)";
+            this.UnlockAllAvatarAwardsButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.UnlockAllAvatarAwardsButton_Click);
             // 
             // XNotifyLabel
             // 
             this.XNotifyLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XNotifyLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(119)))), ((int)(((byte)(250)))));
-            this.XNotifyLabel.Location = new System.Drawing.Point(6, 381);
+            this.XNotifyLabel.Location = new System.Drawing.Point(6, 434);
             this.XNotifyLabel.Name = "XNotifyLabel";
             this.XNotifyLabel.Size = new System.Drawing.Size(395, 23);
             this.XNotifyLabel.TabIndex = 15;
@@ -573,10 +637,10 @@
             this.SendXNotifyButton.EnabledCalc = true;
             this.SendXNotifyButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.SendXNotifyButton.ForeColor = System.Drawing.Color.White;
-            this.SendXNotifyButton.Location = new System.Drawing.Point(654, 410);
+            this.SendXNotifyButton.Location = new System.Drawing.Point(654, 463);
             this.SendXNotifyButton.Name = "SendXNotifyButton";
             this.SendXNotifyButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.SendXNotifyButton.Size = new System.Drawing.Size(213, 38);
+            this.SendXNotifyButton.Size = new System.Drawing.Size(207, 38);
             this.SendXNotifyButton.TabIndex = 16;
             this.SendXNotifyButton.Text = "Send XNotify";
             // 
@@ -590,7 +654,7 @@
             this.XNotifyTextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XNotifyTextbox.ForeColor = System.Drawing.Color.White;
             this.XNotifyTextbox.Hint = "";
-            this.XNotifyTextbox.Location = new System.Drawing.Point(5, 410);
+            this.XNotifyTextbox.Location = new System.Drawing.Point(5, 463);
             this.XNotifyTextbox.MaxLength = 32767;
             this.XNotifyTextbox.Multiline = false;
             this.XNotifyTextbox.Name = "XNotifyTextbox";
@@ -607,31 +671,31 @@
             // ConsoleOptionsSeperator2
             // 
             this.ConsoleOptionsSeperator2.LineColor = System.Drawing.Color.Gray;
-            this.ConsoleOptionsSeperator2.Location = new System.Drawing.Point(6, 339);
+            this.ConsoleOptionsSeperator2.Location = new System.Drawing.Point(6, 406);
             this.ConsoleOptionsSeperator2.Name = "ConsoleOptionsSeperator2";
-            this.ConsoleOptionsSeperator2.Size = new System.Drawing.Size(861, 10);
+            this.ConsoleOptionsSeperator2.Size = new System.Drawing.Size(855, 16);
             this.ConsoleOptionsSeperator2.TabIndex = 13;
             this.ConsoleOptionsSeperator2.Text = "ConsoleOptionsSeperator1";
             // 
-            // ttttttt
+            // UnlockAllAchievementsButton
             // 
-            this.ttttttt.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ttttttt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.ttttttt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ttttttt.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ttttttt.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.ttttttt.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.ttttttt.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.ttttttt.EnabledCalc = true;
-            this.ttttttt.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.ttttttt.ForeColor = System.Drawing.Color.White;
-            this.ttttttt.Location = new System.Drawing.Point(632, 258);
-            this.ttttttt.Name = "ttttttt";
-            this.ttttttt.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ttttttt.Size = new System.Drawing.Size(235, 43);
-            this.ttttttt.TabIndex = 12;
-            this.ttttttt.Text = "....";
-            this.ttttttt.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.ttttttt_Click);
+            this.UnlockAllAchievementsButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.UnlockAllAchievementsButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.UnlockAllAchievementsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UnlockAllAchievementsButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.UnlockAllAchievementsButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.UnlockAllAchievementsButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.UnlockAllAchievementsButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.UnlockAllAchievementsButton.EnabledCalc = true;
+            this.UnlockAllAchievementsButton.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.UnlockAllAchievementsButton.ForeColor = System.Drawing.Color.White;
+            this.UnlockAllAchievementsButton.Location = new System.Drawing.Point(577, 258);
+            this.UnlockAllAchievementsButton.Name = "UnlockAllAchievementsButton";
+            this.UnlockAllAchievementsButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.UnlockAllAchievementsButton.Size = new System.Drawing.Size(284, 43);
+            this.UnlockAllAchievementsButton.TabIndex = 12;
+            this.UnlockAllAchievementsButton.Text = "Unlock All Achievements (Must Be In-Game)";
+            this.UnlockAllAchievementsButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.UnlockAllAchievementsButton_Click);
             // 
             // ResetLedsButton
             // 
@@ -648,7 +712,7 @@
             this.ResetLedsButton.Location = new System.Drawing.Point(257, 258);
             this.ResetLedsButton.Name = "ResetLedsButton";
             this.ResetLedsButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ResetLedsButton.Size = new System.Drawing.Size(369, 43);
+            this.ResetLedsButton.Size = new System.Drawing.Size(314, 43);
             this.ResetLedsButton.TabIndex = 11;
             this.ResetLedsButton.Text = "Reset LEDs";
             // 
@@ -684,10 +748,10 @@
             this.TakeScreenshotButton.EnabledCalc = true;
             this.TakeScreenshotButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.TakeScreenshotButton.ForeColor = System.Drawing.Color.White;
-            this.TakeScreenshotButton.Location = new System.Drawing.Point(632, 198);
+            this.TakeScreenshotButton.Location = new System.Drawing.Point(577, 198);
             this.TakeScreenshotButton.Name = "TakeScreenshotButton";
             this.TakeScreenshotButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.TakeScreenshotButton.Size = new System.Drawing.Size(235, 43);
+            this.TakeScreenshotButton.Size = new System.Drawing.Size(284, 43);
             this.TakeScreenshotButton.TabIndex = 9;
             this.TakeScreenshotButton.Text = "Take Screenshot";
             this.TakeScreenshotButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.TakeScreenshotButton_Click);
@@ -707,7 +771,7 @@
             this.ClearCacheButton.Location = new System.Drawing.Point(257, 198);
             this.ClearCacheButton.Name = "ClearCacheButton";
             this.ClearCacheButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ClearCacheButton.Size = new System.Drawing.Size(369, 43);
+            this.ClearCacheButton.Size = new System.Drawing.Size(314, 43);
             this.ClearCacheButton.TabIndex = 8;
             this.ClearCacheButton.Text = "Clear Cache";
             // 
@@ -736,7 +800,7 @@
             this.ConsoleOptionsSeperator1.LineColor = System.Drawing.Color.Gray;
             this.ConsoleOptionsSeperator1.Location = new System.Drawing.Point(6, 154);
             this.ConsoleOptionsSeperator1.Name = "ConsoleOptionsSeperator1";
-            this.ConsoleOptionsSeperator1.Size = new System.Drawing.Size(861, 13);
+            this.ConsoleOptionsSeperator1.Size = new System.Drawing.Size(855, 17);
             this.ConsoleOptionsSeperator1.TabIndex = 6;
             this.ConsoleOptionsSeperator1.Text = "ConsoleOptionsSeperator1";
             // 
@@ -755,7 +819,7 @@
             this.RestartCurrentGameButton.Location = new System.Drawing.Point(475, 84);
             this.RestartCurrentGameButton.Name = "RestartCurrentGameButton";
             this.RestartCurrentGameButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.RestartCurrentGameButton.Size = new System.Drawing.Size(392, 43);
+            this.RestartCurrentGameButton.Size = new System.Drawing.Size(386, 43);
             this.RestartCurrentGameButton.TabIndex = 5;
             this.RestartCurrentGameButton.Text = "Restart Current Game";
             // 
@@ -793,7 +857,7 @@
             this.ShutdownButton.Location = new System.Drawing.Point(655, 10);
             this.ShutdownButton.Name = "ShutdownButton";
             this.ShutdownButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ShutdownButton.Size = new System.Drawing.Size(212, 43);
+            this.ShutdownButton.Size = new System.Drawing.Size(206, 43);
             this.ShutdownButton.TabIndex = 3;
             this.ShutdownButton.Text = "Shutdown Console";
             this.ShutdownButton.Click += new ReaLTaiizor.Util.FoxBase.ButtonFoxBase.ClickEventHandler(this.ShutdownButton_Click);
@@ -844,7 +908,7 @@
             this.XuidTab.Location = new System.Drawing.Point(4, 44);
             this.XuidTab.Name = "XuidTab";
             this.XuidTab.Padding = new System.Windows.Forms.Padding(3);
-            this.XuidTab.Size = new System.Drawing.Size(873, 510);
+            this.XuidTab.Size = new System.Drawing.Size(867, 510);
             this.XuidTab.TabIndex = 1;
             this.XuidTab.Text = "XUID";
             // 
@@ -853,7 +917,7 @@
             this.ConsoleExtrasTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ConsoleExtrasTab.Location = new System.Drawing.Point(4, 44);
             this.ConsoleExtrasTab.Name = "ConsoleExtrasTab";
-            this.ConsoleExtrasTab.Size = new System.Drawing.Size(873, 510);
+            this.ConsoleExtrasTab.Size = new System.Drawing.Size(867, 510);
             this.ConsoleExtrasTab.TabIndex = 2;
             this.ConsoleExtrasTab.Text = "Console Extras";
             // 
@@ -862,7 +926,7 @@
             this.KvCheckerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.KvCheckerTab.Location = new System.Drawing.Point(4, 44);
             this.KvCheckerTab.Name = "KvCheckerTab";
-            this.KvCheckerTab.Size = new System.Drawing.Size(873, 510);
+            this.KvCheckerTab.Size = new System.Drawing.Size(867, 510);
             this.KvCheckerTab.TabIndex = 3;
             this.KvCheckerTab.Text = "KV Checker";
             // 
@@ -871,7 +935,7 @@
             this.QuickLaunchTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.QuickLaunchTab.Location = new System.Drawing.Point(4, 44);
             this.QuickLaunchTab.Name = "QuickLaunchTab";
-            this.QuickLaunchTab.Size = new System.Drawing.Size(873, 510);
+            this.QuickLaunchTab.Size = new System.Drawing.Size(867, 510);
             this.QuickLaunchTab.TabIndex = 4;
             this.QuickLaunchTab.Text = "Quick Launch";
             // 
@@ -880,7 +944,7 @@
             this.DashlaunchEditorTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.DashlaunchEditorTab.Location = new System.Drawing.Point(4, 44);
             this.DashlaunchEditorTab.Name = "DashlaunchEditorTab";
-            this.DashlaunchEditorTab.Size = new System.Drawing.Size(873, 510);
+            this.DashlaunchEditorTab.Size = new System.Drawing.Size(867, 510);
             this.DashlaunchEditorTab.TabIndex = 5;
             this.DashlaunchEditorTab.Text = "Dashlaunch Editor";
             // 
@@ -889,7 +953,7 @@
             this.XeBuildTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.XeBuildTab.Location = new System.Drawing.Point(4, 44);
             this.XeBuildTab.Name = "XeBuildTab";
-            this.XeBuildTab.Size = new System.Drawing.Size(873, 510);
+            this.XeBuildTab.Size = new System.Drawing.Size(867, 510);
             this.XeBuildTab.TabIndex = 6;
             this.XeBuildTab.Text = "XeBuild";
             // 
@@ -899,7 +963,7 @@
             this.GamesTab.Location = new System.Drawing.Point(4, 44);
             this.GamesTab.Name = "GamesTab";
             this.GamesTab.Padding = new System.Windows.Forms.Padding(3);
-            this.GamesTab.Size = new System.Drawing.Size(894, 570);
+            this.GamesTab.Size = new System.Drawing.Size(884, 570);
             this.GamesTab.TabIndex = 1;
             this.GamesTab.Text = "Games";
             // 
@@ -908,7 +972,7 @@
             this.FileManagerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.FileManagerTab.Location = new System.Drawing.Point(4, 44);
             this.FileManagerTab.Name = "FileManagerTab";
-            this.FileManagerTab.Size = new System.Drawing.Size(894, 570);
+            this.FileManagerTab.Size = new System.Drawing.Size(884, 570);
             this.FileManagerTab.TabIndex = 2;
             this.FileManagerTab.Text = "File Manager";
             // 
@@ -917,7 +981,7 @@
             this.PeekPokerTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.PeekPokerTab.Location = new System.Drawing.Point(4, 44);
             this.PeekPokerTab.Name = "PeekPokerTab";
-            this.PeekPokerTab.Size = new System.Drawing.Size(894, 570);
+            this.PeekPokerTab.Size = new System.Drawing.Size(884, 570);
             this.PeekPokerTab.TabIndex = 3;
             this.PeekPokerTab.Text = "Peek Poker";
             // 
@@ -926,7 +990,7 @@
             this.NetworkTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.NetworkTab.Location = new System.Drawing.Point(4, 44);
             this.NetworkTab.Name = "NetworkTab";
-            this.NetworkTab.Size = new System.Drawing.Size(894, 570);
+            this.NetworkTab.Size = new System.Drawing.Size(884, 570);
             this.NetworkTab.TabIndex = 4;
             this.NetworkTab.Text = "Network";
             // 
@@ -945,6 +1009,188 @@
             this.JRunnerTab.Size = new System.Drawing.Size(884, 570);
             this.JRunnerTab.TabIndex = 5;
             this.JRunnerTab.Text = "JRunner";
+            // 
+            // hopeGroupBox1
+            // 
+            this.hopeGroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
+            this.hopeGroupBox1.Controls.Add(this.JrCpuKeyLabel);
+            this.hopeGroupBox1.Controls.Add(this.JrSourceDirectoryTextbox);
+            this.hopeGroupBox1.Controls.Add(this.JrCpuKeyTextbox);
+            this.hopeGroupBox1.Controls.Add(this.JrExtraDirectoryTextbox);
+            this.hopeGroupBox1.Controls.Add(this.JrLoadExtraButton);
+            this.hopeGroupBox1.Controls.Add(this.JrLoadSourceButton);
+            this.hopeGroupBox1.Controls.Add(this.foxButton1);
+            this.hopeGroupBox1.Controls.Add(this.foxButton5);
+            this.hopeGroupBox1.Controls.Add(this.foxButton7);
+            this.hopeGroupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.hopeGroupBox1.ForeColor = System.Drawing.Color.White;
+            this.hopeGroupBox1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
+            this.hopeGroupBox1.Location = new System.Drawing.Point(15, 147);
+            this.hopeGroupBox1.Name = "hopeGroupBox1";
+            this.hopeGroupBox1.ShowText = false;
+            this.hopeGroupBox1.Size = new System.Drawing.Size(470, 123);
+            this.hopeGroupBox1.TabIndex = 18;
+            this.hopeGroupBox1.TabStop = false;
+            this.hopeGroupBox1.ThemeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            // 
+            // JrCpuKeyLabel
+            // 
+            this.JrCpuKeyLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrCpuKeyLabel.ForeColor = System.Drawing.Color.White;
+            this.JrCpuKeyLabel.Location = new System.Drawing.Point(16, 90);
+            this.JrCpuKeyLabel.Name = "JrCpuKeyLabel";
+            this.JrCpuKeyLabel.Size = new System.Drawing.Size(73, 20);
+            this.JrCpuKeyLabel.TabIndex = 19;
+            this.JrCpuKeyLabel.Text = "CPU Key:";
+            // 
+            // JrSourceDirectoryTextbox
+            // 
+            this.JrSourceDirectoryTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrSourceDirectoryTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrSourceDirectoryTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrSourceDirectoryTextbox.FocusOnHover = false;
+            this.JrSourceDirectoryTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrSourceDirectoryTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrSourceDirectoryTextbox.Location = new System.Drawing.Point(95, 15);
+            this.JrSourceDirectoryTextbox.MaxLength = 32767;
+            this.JrSourceDirectoryTextbox.Multiline = false;
+            this.JrSourceDirectoryTextbox.Name = "JrSourceDirectoryTextbox";
+            this.JrSourceDirectoryTextbox.ReadOnly = true;
+            this.JrSourceDirectoryTextbox.Size = new System.Drawing.Size(280, 31);
+            this.JrSourceDirectoryTextbox.TabIndex = 39;
+            this.JrSourceDirectoryTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrSourceDirectoryTextbox.UseSystemPasswordChar = false;
+            // 
+            // JrCpuKeyTextbox
+            // 
+            this.JrCpuKeyTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrCpuKeyTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrCpuKeyTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrCpuKeyTextbox.FocusOnHover = false;
+            this.JrCpuKeyTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrCpuKeyTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrCpuKeyTextbox.Location = new System.Drawing.Point(95, 86);
+            this.JrCpuKeyTextbox.MaxLength = 32767;
+            this.JrCpuKeyTextbox.Multiline = false;
+            this.JrCpuKeyTextbox.Name = "JrCpuKeyTextbox";
+            this.JrCpuKeyTextbox.ReadOnly = true;
+            this.JrCpuKeyTextbox.Size = new System.Drawing.Size(280, 31);
+            this.JrCpuKeyTextbox.TabIndex = 38;
+            this.JrCpuKeyTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrCpuKeyTextbox.UseSystemPasswordChar = false;
+            // 
+            // JrExtraDirectoryTextbox
+            // 
+            this.JrExtraDirectoryTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrExtraDirectoryTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrExtraDirectoryTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrExtraDirectoryTextbox.FocusOnHover = false;
+            this.JrExtraDirectoryTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrExtraDirectoryTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrExtraDirectoryTextbox.Location = new System.Drawing.Point(95, 52);
+            this.JrExtraDirectoryTextbox.MaxLength = 32767;
+            this.JrExtraDirectoryTextbox.Multiline = false;
+            this.JrExtraDirectoryTextbox.Name = "JrExtraDirectoryTextbox";
+            this.JrExtraDirectoryTextbox.ReadOnly = true;
+            this.JrExtraDirectoryTextbox.Size = new System.Drawing.Size(280, 31);
+            this.JrExtraDirectoryTextbox.TabIndex = 37;
+            this.JrExtraDirectoryTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrExtraDirectoryTextbox.UseSystemPasswordChar = false;
+            // 
+            // JrLoadExtraButton
+            // 
+            this.JrLoadExtraButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrLoadExtraButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.JrLoadExtraButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.JrLoadExtraButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrLoadExtraButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.JrLoadExtraButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.JrLoadExtraButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.JrLoadExtraButton.EnabledCalc = true;
+            this.JrLoadExtraButton.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.JrLoadExtraButton.ForeColor = System.Drawing.Color.White;
+            this.JrLoadExtraButton.Location = new System.Drawing.Point(6, 49);
+            this.JrLoadExtraButton.Name = "JrLoadExtraButton";
+            this.JrLoadExtraButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.JrLoadExtraButton.Size = new System.Drawing.Size(83, 34);
+            this.JrLoadExtraButton.TabIndex = 11;
+            this.JrLoadExtraButton.Text = "Load Extra";
+            // 
+            // JrLoadSourceButton
+            // 
+            this.JrLoadSourceButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrLoadSourceButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.JrLoadSourceButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.JrLoadSourceButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrLoadSourceButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.JrLoadSourceButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.JrLoadSourceButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.JrLoadSourceButton.EnabledCalc = true;
+            this.JrLoadSourceButton.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.JrLoadSourceButton.ForeColor = System.Drawing.Color.White;
+            this.JrLoadSourceButton.Location = new System.Drawing.Point(6, 13);
+            this.JrLoadSourceButton.Name = "JrLoadSourceButton";
+            this.JrLoadSourceButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.JrLoadSourceButton.Size = new System.Drawing.Size(83, 34);
+            this.JrLoadSourceButton.TabIndex = 10;
+            this.JrLoadSourceButton.Text = "Load Source";
+            // 
+            // foxButton1
+            // 
+            this.foxButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foxButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.foxButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.foxButton1.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foxButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.foxButton1.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.foxButton1.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.foxButton1.EnabledCalc = true;
+            this.foxButton1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.foxButton1.ForeColor = System.Drawing.Color.White;
+            this.foxButton1.Location = new System.Drawing.Point(381, 49);
+            this.foxButton1.Name = "foxButton1";
+            this.foxButton1.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.foxButton1.Size = new System.Drawing.Size(83, 33);
+            this.foxButton1.TabIndex = 9;
+            this.foxButton1.Text = "Compare";
+            // 
+            // foxButton5
+            // 
+            this.foxButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foxButton5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.foxButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.foxButton5.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foxButton5.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.foxButton5.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.foxButton5.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.foxButton5.EnabledCalc = true;
+            this.foxButton5.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.foxButton5.ForeColor = System.Drawing.Color.White;
+            this.foxButton5.Location = new System.Drawing.Point(381, 13);
+            this.foxButton5.Name = "foxButton5";
+            this.foxButton5.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.foxButton5.Size = new System.Drawing.Size(83, 34);
+            this.foxButton5.TabIndex = 6;
+            this.foxButton5.Text = "Write Nand";
+            // 
+            // foxButton7
+            // 
+            this.foxButton7.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foxButton7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.foxButton7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.foxButton7.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foxButton7.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.foxButton7.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.foxButton7.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.foxButton7.EnabledCalc = true;
+            this.foxButton7.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.foxButton7.ForeColor = System.Drawing.Color.White;
+            this.foxButton7.Location = new System.Drawing.Point(381, 84);
+            this.foxButton7.Name = "foxButton7";
+            this.foxButton7.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.foxButton7.Size = new System.Drawing.Size(83, 34);
+            this.foxButton7.TabIndex = 5;
+            this.foxButton7.Text = "Reload";
             // 
             // JrBootLoadersGroupBox
             // 
@@ -1006,6 +1252,310 @@
             this.JrBootloadersTab.TabIndex = 0;
             this.JrBootloadersTab.Text = "Bootloaders & SMC";
             // 
+            // JrBootloadLDV1Textbox
+            // 
+            this.JrBootloadLDV1Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadLDV1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadLDV1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadLDV1Textbox.FocusOnHover = false;
+            this.JrBootloadLDV1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadLDV1Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadLDV1Textbox.Location = new System.Drawing.Point(123, 153);
+            this.JrBootloadLDV1Textbox.MaxLength = 32767;
+            this.JrBootloadLDV1Textbox.Multiline = false;
+            this.JrBootloadLDV1Textbox.Name = "JrBootloadLDV1Textbox";
+            this.JrBootloadLDV1Textbox.ReadOnly = false;
+            this.JrBootloadLDV1Textbox.Size = new System.Drawing.Size(240, 29);
+            this.JrBootloadLDV1Textbox.TabIndex = 35;
+            this.JrBootloadLDV1Textbox.Text = "LDV:";
+            this.JrBootloadLDV1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadLDV1Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadPD1Textbox
+            // 
+            this.JrBootloadPD1Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadPD1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadPD1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadPD1Textbox.FocusOnHover = false;
+            this.JrBootloadPD1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadPD1Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadPD1Textbox.Location = new System.Drawing.Point(4, 153);
+            this.JrBootloadPD1Textbox.MaxLength = 32767;
+            this.JrBootloadPD1Textbox.Multiline = false;
+            this.JrBootloadPD1Textbox.Name = "JrBootloadPD1Textbox";
+            this.JrBootloadPD1Textbox.ReadOnly = false;
+            this.JrBootloadPD1Textbox.Size = new System.Drawing.Size(111, 29);
+            this.JrBootloadPD1Textbox.TabIndex = 34;
+            this.JrBootloadPD1Textbox.Text = "PD:";
+            this.JrBootloadPD1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadPD1Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadPD3Textbox
+            // 
+            this.JrBootloadPD3Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadPD3Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadPD3Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadPD3Textbox.FocusOnHover = false;
+            this.JrBootloadPD3Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadPD3Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadPD3Textbox.Location = new System.Drawing.Point(299, 122);
+            this.JrBootloadPD3Textbox.MaxLength = 32767;
+            this.JrBootloadPD3Textbox.Multiline = false;
+            this.JrBootloadPD3Textbox.Name = "JrBootloadPD3Textbox";
+            this.JrBootloadPD3Textbox.ReadOnly = false;
+            this.JrBootloadPD3Textbox.Size = new System.Drawing.Size(64, 29);
+            this.JrBootloadPD3Textbox.TabIndex = 33;
+            this.JrBootloadPD3Textbox.Text = "PD:";
+            this.JrBootloadPD3Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadPD3Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadLDV3Textbox
+            // 
+            this.JrBootloadLDV3Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadLDV3Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadLDV3Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadLDV3Textbox.FocusOnHover = false;
+            this.JrBootloadLDV3Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadLDV3Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadLDV3Textbox.Location = new System.Drawing.Point(299, 93);
+            this.JrBootloadLDV3Textbox.MaxLength = 32767;
+            this.JrBootloadLDV3Textbox.Multiline = false;
+            this.JrBootloadLDV3Textbox.Name = "JrBootloadLDV3Textbox";
+            this.JrBootloadLDV3Textbox.ReadOnly = false;
+            this.JrBootloadLDV3Textbox.Size = new System.Drawing.Size(64, 29);
+            this.JrBootloadLDV3Textbox.TabIndex = 32;
+            this.JrBootloadLDV3Textbox.Text = "LDV:";
+            this.JrBootloadLDV3Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadLDV3Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadPD2Textbox
+            // 
+            this.JrBootloadPD2Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadPD2Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadPD2Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadPD2Textbox.FocusOnHover = false;
+            this.JrBootloadPD2Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadPD2Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadPD2Textbox.Location = new System.Drawing.Point(299, 63);
+            this.JrBootloadPD2Textbox.MaxLength = 32767;
+            this.JrBootloadPD2Textbox.Multiline = false;
+            this.JrBootloadPD2Textbox.Name = "JrBootloadPD2Textbox";
+            this.JrBootloadPD2Textbox.ReadOnly = false;
+            this.JrBootloadPD2Textbox.Size = new System.Drawing.Size(64, 29);
+            this.JrBootloadPD2Textbox.TabIndex = 31;
+            this.JrBootloadPD2Textbox.Text = "PD:";
+            this.JrBootloadPD2Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadPD2Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadLDV2Textbox
+            // 
+            this.JrBootloadLDV2Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadLDV2Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadLDV2Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadLDV2Textbox.FocusOnHover = false;
+            this.JrBootloadLDV2Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadLDV2Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadLDV2Textbox.Location = new System.Drawing.Point(299, 33);
+            this.JrBootloadLDV2Textbox.MaxLength = 32767;
+            this.JrBootloadLDV2Textbox.Multiline = false;
+            this.JrBootloadLDV2Textbox.Name = "JrBootloadLDV2Textbox";
+            this.JrBootloadLDV2Textbox.ReadOnly = false;
+            this.JrBootloadLDV2Textbox.Size = new System.Drawing.Size(64, 29);
+            this.JrBootloadLDV2Textbox.TabIndex = 30;
+            this.JrBootloadLDV2Textbox.Text = "LDV:";
+            this.JrBootloadLDV2Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadLDV2Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCGPSlot1Textbox
+            // 
+            this.JrBootloadCGPSlot1Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCGPSlot1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCGPSlot1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCGPSlot1Textbox.FocusOnHover = false;
+            this.JrBootloadCGPSlot1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCGPSlot1Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCGPSlot1Textbox.Location = new System.Drawing.Point(123, 122);
+            this.JrBootloadCGPSlot1Textbox.MaxLength = 32767;
+            this.JrBootloadCGPSlot1Textbox.Multiline = false;
+            this.JrBootloadCGPSlot1Textbox.Name = "JrBootloadCGPSlot1Textbox";
+            this.JrBootloadCGPSlot1Textbox.ReadOnly = false;
+            this.JrBootloadCGPSlot1Textbox.Size = new System.Drawing.Size(170, 29);
+            this.JrBootloadCGPSlot1Textbox.TabIndex = 29;
+            this.JrBootloadCGPSlot1Textbox.Text = "CG Path Slot 1:";
+            this.JrBootloadCGPSlot1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCGPSlot1Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCFPSlot1Textbox
+            // 
+            this.JrBootloadCFPSlot1Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCFPSlot1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCFPSlot1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCFPSlot1Textbox.FocusOnHover = false;
+            this.JrBootloadCFPSlot1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCFPSlot1Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCFPSlot1Textbox.Location = new System.Drawing.Point(123, 93);
+            this.JrBootloadCFPSlot1Textbox.MaxLength = 32767;
+            this.JrBootloadCFPSlot1Textbox.Multiline = false;
+            this.JrBootloadCFPSlot1Textbox.Name = "JrBootloadCFPSlot1Textbox";
+            this.JrBootloadCFPSlot1Textbox.ReadOnly = false;
+            this.JrBootloadCFPSlot1Textbox.Size = new System.Drawing.Size(170, 29);
+            this.JrBootloadCFPSlot1Textbox.TabIndex = 28;
+            this.JrBootloadCFPSlot1Textbox.Text = "CF Path Slot 1:";
+            this.JrBootloadCFPSlot1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCFPSlot1Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCGPSlot0Textbox
+            // 
+            this.JrBootloadCGPSlot0Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCGPSlot0Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCGPSlot0Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCGPSlot0Textbox.FocusOnHover = false;
+            this.JrBootloadCGPSlot0Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCGPSlot0Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCGPSlot0Textbox.Location = new System.Drawing.Point(123, 63);
+            this.JrBootloadCGPSlot0Textbox.MaxLength = 32767;
+            this.JrBootloadCGPSlot0Textbox.Multiline = false;
+            this.JrBootloadCGPSlot0Textbox.Name = "JrBootloadCGPSlot0Textbox";
+            this.JrBootloadCGPSlot0Textbox.ReadOnly = false;
+            this.JrBootloadCGPSlot0Textbox.Size = new System.Drawing.Size(170, 29);
+            this.JrBootloadCGPSlot0Textbox.TabIndex = 27;
+            this.JrBootloadCGPSlot0Textbox.Text = "CG Path Slot 0:";
+            this.JrBootloadCGPSlot0Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCGPSlot0Textbox.UseSystemPasswordChar = false;
+            // 
+            // foreverTextBox2
+            // 
+            this.foreverTextBox2.BackColor = System.Drawing.Color.Transparent;
+            this.foreverTextBox2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.foreverTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.foreverTextBox2.FocusOnHover = false;
+            this.foreverTextBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverTextBox2.ForeColor = System.Drawing.Color.White;
+            this.foreverTextBox2.Location = new System.Drawing.Point(123, 3);
+            this.foreverTextBox2.MaxLength = 32767;
+            this.foreverTextBox2.Multiline = false;
+            this.foreverTextBox2.Name = "foreverTextBox2";
+            this.foreverTextBox2.ReadOnly = false;
+            this.foreverTextBox2.Size = new System.Drawing.Size(240, 29);
+            this.foreverTextBox2.TabIndex = 26;
+            this.foreverTextBox2.Text = "SMC Version:";
+            this.foreverTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.foreverTextBox2.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCBATextbox
+            // 
+            this.JrBootloadCBATextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCBATextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCBATextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCBATextbox.FocusOnHover = false;
+            this.JrBootloadCBATextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCBATextbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCBATextbox.Location = new System.Drawing.Point(4, 33);
+            this.JrBootloadCBATextbox.MaxLength = 32767;
+            this.JrBootloadCBATextbox.Multiline = false;
+            this.JrBootloadCBATextbox.Name = "JrBootloadCBATextbox";
+            this.JrBootloadCBATextbox.ReadOnly = false;
+            this.JrBootloadCBATextbox.Size = new System.Drawing.Size(111, 29);
+            this.JrBootloadCBATextbox.TabIndex = 25;
+            this.JrBootloadCBATextbox.Text = "CB_A:";
+            this.JrBootloadCBATextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCBATextbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCETextbox
+            // 
+            this.JrBootloadCETextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCETextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCETextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCETextbox.FocusOnHover = false;
+            this.JrBootloadCETextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCETextbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCETextbox.Location = new System.Drawing.Point(4, 123);
+            this.JrBootloadCETextbox.MaxLength = 32767;
+            this.JrBootloadCETextbox.Multiline = false;
+            this.JrBootloadCETextbox.Name = "JrBootloadCETextbox";
+            this.JrBootloadCETextbox.ReadOnly = false;
+            this.JrBootloadCETextbox.Size = new System.Drawing.Size(111, 29);
+            this.JrBootloadCETextbox.TabIndex = 24;
+            this.JrBootloadCETextbox.Text = "CE:";
+            this.JrBootloadCETextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCETextbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCFPSlot0Textbox
+            // 
+            this.JrBootloadCFPSlot0Textbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCFPSlot0Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCFPSlot0Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCFPSlot0Textbox.FocusOnHover = false;
+            this.JrBootloadCFPSlot0Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCFPSlot0Textbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCFPSlot0Textbox.Location = new System.Drawing.Point(123, 33);
+            this.JrBootloadCFPSlot0Textbox.MaxLength = 32767;
+            this.JrBootloadCFPSlot0Textbox.Multiline = false;
+            this.JrBootloadCFPSlot0Textbox.Name = "JrBootloadCFPSlot0Textbox";
+            this.JrBootloadCFPSlot0Textbox.ReadOnly = false;
+            this.JrBootloadCFPSlot0Textbox.Size = new System.Drawing.Size(170, 29);
+            this.JrBootloadCFPSlot0Textbox.TabIndex = 23;
+            this.JrBootloadCFPSlot0Textbox.Text = "CF Path Slot 0:";
+            this.JrBootloadCFPSlot0Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCFPSlot0Textbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCDTextbox
+            // 
+            this.JrBootloadCDTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCDTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCDTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCDTextbox.FocusOnHover = false;
+            this.JrBootloadCDTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCDTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCDTextbox.Location = new System.Drawing.Point(4, 93);
+            this.JrBootloadCDTextbox.MaxLength = 32767;
+            this.JrBootloadCDTextbox.Multiline = false;
+            this.JrBootloadCDTextbox.Name = "JrBootloadCDTextbox";
+            this.JrBootloadCDTextbox.ReadOnly = false;
+            this.JrBootloadCDTextbox.Size = new System.Drawing.Size(111, 29);
+            this.JrBootloadCDTextbox.TabIndex = 22;
+            this.JrBootloadCDTextbox.Text = "CD:";
+            this.JrBootloadCDTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCDTextbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadCBBTextbox
+            // 
+            this.JrBootloadCBBTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadCBBTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadCBBTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadCBBTextbox.FocusOnHover = false;
+            this.JrBootloadCBBTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadCBBTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadCBBTextbox.Location = new System.Drawing.Point(4, 63);
+            this.JrBootloadCBBTextbox.MaxLength = 32767;
+            this.JrBootloadCBBTextbox.Multiline = false;
+            this.JrBootloadCBBTextbox.Name = "JrBootloadCBBTextbox";
+            this.JrBootloadCBBTextbox.ReadOnly = false;
+            this.JrBootloadCBBTextbox.Size = new System.Drawing.Size(111, 29);
+            this.JrBootloadCBBTextbox.TabIndex = 21;
+            this.JrBootloadCBBTextbox.Text = "CB_B:";
+            this.JrBootloadCBBTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadCBBTextbox.UseSystemPasswordChar = false;
+            // 
+            // JrBootloadConsoleTextbox
+            // 
+            this.JrBootloadConsoleTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrBootloadConsoleTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrBootloadConsoleTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrBootloadConsoleTextbox.FocusOnHover = false;
+            this.JrBootloadConsoleTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrBootloadConsoleTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrBootloadConsoleTextbox.Location = new System.Drawing.Point(4, 3);
+            this.JrBootloadConsoleTextbox.MaxLength = 32767;
+            this.JrBootloadConsoleTextbox.Multiline = false;
+            this.JrBootloadConsoleTextbox.Name = "JrBootloadConsoleTextbox";
+            this.JrBootloadConsoleTextbox.ReadOnly = true;
+            this.JrBootloadConsoleTextbox.Size = new System.Drawing.Size(111, 29);
+            this.JrBootloadConsoleTextbox.TabIndex = 19;
+            this.JrBootloadConsoleTextbox.Text = "Console:";
+            this.JrBootloadConsoleTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrBootloadConsoleTextbox.UseSystemPasswordChar = false;
+            // 
             // JrKeyVaultTab
             // 
             this.JrKeyVaultTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
@@ -1044,6 +1594,25 @@
             this.JrMiscGroupBox.TabIndex = 10;
             this.JrMiscGroupBox.TabStop = false;
             this.JrMiscGroupBox.ThemeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            // 
+            // JrIpTextbox
+            // 
+            this.JrIpTextbox.BackColor = System.Drawing.Color.Transparent;
+            this.JrIpTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.JrIpTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.JrIpTextbox.FocusOnHover = false;
+            this.JrIpTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JrIpTextbox.ForeColor = System.Drawing.Color.White;
+            this.JrIpTextbox.Location = new System.Drawing.Point(203, 7);
+            this.JrIpTextbox.MaxLength = 32767;
+            this.JrIpTextbox.Multiline = false;
+            this.JrIpTextbox.Name = "JrIpTextbox";
+            this.JrIpTextbox.ReadOnly = false;
+            this.JrIpTextbox.Size = new System.Drawing.Size(179, 29);
+            this.JrIpTextbox.TabIndex = 18;
+            this.JrIpTextbox.Text = "IP: ";
+            this.JrIpTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.JrIpTextbox.UseSystemPasswordChar = false;
             // 
             // JrScanIpRangeButton
             // 
@@ -1218,7 +1787,7 @@
             this.JRConsoleQueryTextbox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JRConsoleQueryTextbox.ForeColor = System.Drawing.Color.White;
             this.JRConsoleQueryTextbox.Hint = "";
-            this.JRConsoleQueryTextbox.Location = new System.Drawing.Point(6, 86);
+            this.JRConsoleQueryTextbox.Location = new System.Drawing.Point(6, 84);
             this.JRConsoleQueryTextbox.MaxLength = 32767;
             this.JRConsoleQueryTextbox.Multiline = false;
             this.JRConsoleQueryTextbox.Name = "JRConsoleQueryTextbox";
@@ -1255,7 +1824,7 @@
             this.JrGetConsoleTypeButton.EnabledCalc = true;
             this.JrGetConsoleTypeButton.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.JrGetConsoleTypeButton.ForeColor = System.Drawing.Color.White;
-            this.JrGetConsoleTypeButton.Location = new System.Drawing.Point(130, 86);
+            this.JrGetConsoleTypeButton.Location = new System.Drawing.Point(130, 85);
             this.JrGetConsoleTypeButton.Name = "JrGetConsoleTypeButton";
             this.JrGetConsoleTypeButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.JrGetConsoleTypeButton.Size = new System.Drawing.Size(32, 31);
@@ -1271,7 +1840,7 @@
             this.JrSmcRJtagCheckbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JrSmcRJtagCheckbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JrSmcRJtagCheckbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JrSmcRJtagCheckbox.Location = new System.Drawing.Point(261, 99);
+            this.JrSmcRJtagCheckbox.Location = new System.Drawing.Point(261, 94);
             this.JrSmcRJtagCheckbox.Name = "JrSmcRJtagCheckbox";
             this.JrSmcRJtagCheckbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JrSmcRJtagCheckbox.Size = new System.Drawing.Size(91, 22);
@@ -1287,7 +1856,7 @@
             this.JrAudClampRgh3Checkbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JrAudClampRgh3Checkbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JrAudClampRgh3Checkbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JrAudClampRgh3Checkbox.Location = new System.Drawing.Point(261, 80);
+            this.JrAudClampRgh3Checkbox.Location = new System.Drawing.Point(261, 75);
             this.JrAudClampRgh3Checkbox.Name = "JrAudClampRgh3Checkbox";
             this.JrAudClampRgh3Checkbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JrAudClampRgh3Checkbox.Size = new System.Drawing.Size(99, 22);
@@ -1303,7 +1872,7 @@
             this.foreverCheckBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foreverCheckBox9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverCheckBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.foreverCheckBox9.Location = new System.Drawing.Point(261, 64);
+            this.foreverCheckBox9.Location = new System.Drawing.Point(261, 59);
             this.foreverCheckBox9.Name = "foreverCheckBox9";
             this.foreverCheckBox9.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.foreverCheckBox9.Size = new System.Drawing.Size(71, 22);
@@ -1319,7 +1888,7 @@
             this.foreverCheckBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foreverCheckBox8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverCheckBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.foreverCheckBox8.Location = new System.Drawing.Point(261, 46);
+            this.foreverCheckBox8.Location = new System.Drawing.Point(261, 41);
             this.foreverCheckBox8.Name = "foreverCheckBox8";
             this.foreverCheckBox8.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.foreverCheckBox8.Size = new System.Drawing.Size(71, 22);
@@ -1335,7 +1904,7 @@
             this.foreverCheckBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foreverCheckBox7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverCheckBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.foreverCheckBox7.Location = new System.Drawing.Point(261, 29);
+            this.foreverCheckBox7.Location = new System.Drawing.Point(261, 24);
             this.foreverCheckBox7.Name = "foreverCheckBox7";
             this.foreverCheckBox7.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.foreverCheckBox7.Size = new System.Drawing.Size(71, 22);
@@ -1352,7 +1921,7 @@
             this.JrDevGLCheckbox.Enabled = false;
             this.JrDevGLCheckbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JrDevGLCheckbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JrDevGLCheckbox.Location = new System.Drawing.Point(168, 99);
+            this.JrDevGLCheckbox.Location = new System.Drawing.Point(168, 94);
             this.JrDevGLCheckbox.Name = "JrDevGLCheckbox";
             this.JrDevGLCheckbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JrDevGLCheckbox.Size = new System.Drawing.Size(82, 22);
@@ -1368,7 +1937,7 @@
             this.JrJtagCheckbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JrJtagCheckbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JrJtagCheckbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JrJtagCheckbox.Location = new System.Drawing.Point(168, 80);
+            this.JrJtagCheckbox.Location = new System.Drawing.Point(168, 75);
             this.JrJtagCheckbox.Name = "JrJtagCheckbox";
             this.JrJtagCheckbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JrJtagCheckbox.Size = new System.Drawing.Size(82, 22);
@@ -1384,7 +1953,7 @@
             this.JrGlitch2mCheckbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JrGlitch2mCheckbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JrGlitch2mCheckbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JrGlitch2mCheckbox.Location = new System.Drawing.Point(168, 64);
+            this.JrGlitch2mCheckbox.Location = new System.Drawing.Point(168, 59);
             this.JrGlitch2mCheckbox.Name = "JrGlitch2mCheckbox";
             this.JrGlitch2mCheckbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JrGlitch2mCheckbox.Size = new System.Drawing.Size(82, 22);
@@ -1400,7 +1969,7 @@
             this.JrGlitch2Checkbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JrGlitch2Checkbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JrGlitch2Checkbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JrGlitch2Checkbox.Location = new System.Drawing.Point(168, 46);
+            this.JrGlitch2Checkbox.Location = new System.Drawing.Point(168, 41);
             this.JrGlitch2Checkbox.Name = "JrGlitch2Checkbox";
             this.JrGlitch2Checkbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JrGlitch2Checkbox.Size = new System.Drawing.Size(71, 22);
@@ -1416,7 +1985,7 @@
             this.JRGlitchCheckbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JRGlitchCheckbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JRGlitchCheckbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JRGlitchCheckbox.Location = new System.Drawing.Point(168, 29);
+            this.JRGlitchCheckbox.Location = new System.Drawing.Point(168, 24);
             this.JRGlitchCheckbox.Name = "JRGlitchCheckbox";
             this.JRGlitchCheckbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JRGlitchCheckbox.Size = new System.Drawing.Size(62, 22);
@@ -1432,7 +2001,7 @@
             this.JRRetailCheckbox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.JRRetailCheckbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JRRetailCheckbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.JRRetailCheckbox.Location = new System.Drawing.Point(168, 10);
+            this.JRRetailCheckbox.Location = new System.Drawing.Point(168, 5);
             this.JRRetailCheckbox.Name = "JRRetailCheckbox";
             this.JRRetailCheckbox.Options = ReaLTaiizor.Controls.ForeverCheckBox._Options.Style1;
             this.JRRetailCheckbox.Size = new System.Drawing.Size(62, 22);
@@ -1647,514 +2216,9 @@
             this.InfoSettingsTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.InfoSettingsTab.Location = new System.Drawing.Point(4, 44);
             this.InfoSettingsTab.Name = "InfoSettingsTab";
-            this.InfoSettingsTab.Size = new System.Drawing.Size(894, 570);
+            this.InfoSettingsTab.Size = new System.Drawing.Size(884, 570);
             this.InfoSettingsTab.TabIndex = 6;
             this.InfoSettingsTab.Text = "Information & Settings";
-            // 
-            // JrIpTextbox
-            // 
-            this.JrIpTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrIpTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrIpTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrIpTextbox.FocusOnHover = false;
-            this.JrIpTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrIpTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrIpTextbox.Location = new System.Drawing.Point(203, 7);
-            this.JrIpTextbox.MaxLength = 32767;
-            this.JrIpTextbox.Multiline = false;
-            this.JrIpTextbox.Name = "JrIpTextbox";
-            this.JrIpTextbox.ReadOnly = false;
-            this.JrIpTextbox.Size = new System.Drawing.Size(179, 29);
-            this.JrIpTextbox.TabIndex = 18;
-            this.JrIpTextbox.Text = "IP: ";
-            this.JrIpTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrIpTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadConsoleTextbox
-            // 
-            this.JrBootloadConsoleTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadConsoleTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadConsoleTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadConsoleTextbox.FocusOnHover = false;
-            this.JrBootloadConsoleTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadConsoleTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadConsoleTextbox.Location = new System.Drawing.Point(4, 3);
-            this.JrBootloadConsoleTextbox.MaxLength = 32767;
-            this.JrBootloadConsoleTextbox.Multiline = false;
-            this.JrBootloadConsoleTextbox.Name = "JrBootloadConsoleTextbox";
-            this.JrBootloadConsoleTextbox.ReadOnly = true;
-            this.JrBootloadConsoleTextbox.Size = new System.Drawing.Size(111, 29);
-            this.JrBootloadConsoleTextbox.TabIndex = 19;
-            this.JrBootloadConsoleTextbox.Text = "Console:";
-            this.JrBootloadConsoleTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadConsoleTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCBBTextbox
-            // 
-            this.JrBootloadCBBTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCBBTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCBBTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCBBTextbox.FocusOnHover = false;
-            this.JrBootloadCBBTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCBBTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCBBTextbox.Location = new System.Drawing.Point(4, 63);
-            this.JrBootloadCBBTextbox.MaxLength = 32767;
-            this.JrBootloadCBBTextbox.Multiline = false;
-            this.JrBootloadCBBTextbox.Name = "JrBootloadCBBTextbox";
-            this.JrBootloadCBBTextbox.ReadOnly = false;
-            this.JrBootloadCBBTextbox.Size = new System.Drawing.Size(111, 29);
-            this.JrBootloadCBBTextbox.TabIndex = 21;
-            this.JrBootloadCBBTextbox.Text = "CB_B:";
-            this.JrBootloadCBBTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCBBTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCDTextbox
-            // 
-            this.JrBootloadCDTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCDTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCDTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCDTextbox.FocusOnHover = false;
-            this.JrBootloadCDTextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCDTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCDTextbox.Location = new System.Drawing.Point(4, 93);
-            this.JrBootloadCDTextbox.MaxLength = 32767;
-            this.JrBootloadCDTextbox.Multiline = false;
-            this.JrBootloadCDTextbox.Name = "JrBootloadCDTextbox";
-            this.JrBootloadCDTextbox.ReadOnly = false;
-            this.JrBootloadCDTextbox.Size = new System.Drawing.Size(111, 29);
-            this.JrBootloadCDTextbox.TabIndex = 22;
-            this.JrBootloadCDTextbox.Text = "CD:";
-            this.JrBootloadCDTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCDTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCFPSlot0Textbox
-            // 
-            this.JrBootloadCFPSlot0Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCFPSlot0Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCFPSlot0Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCFPSlot0Textbox.FocusOnHover = false;
-            this.JrBootloadCFPSlot0Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCFPSlot0Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCFPSlot0Textbox.Location = new System.Drawing.Point(123, 33);
-            this.JrBootloadCFPSlot0Textbox.MaxLength = 32767;
-            this.JrBootloadCFPSlot0Textbox.Multiline = false;
-            this.JrBootloadCFPSlot0Textbox.Name = "JrBootloadCFPSlot0Textbox";
-            this.JrBootloadCFPSlot0Textbox.ReadOnly = false;
-            this.JrBootloadCFPSlot0Textbox.Size = new System.Drawing.Size(170, 29);
-            this.JrBootloadCFPSlot0Textbox.TabIndex = 23;
-            this.JrBootloadCFPSlot0Textbox.Text = "CF Path Slot 0:";
-            this.JrBootloadCFPSlot0Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCFPSlot0Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCETextbox
-            // 
-            this.JrBootloadCETextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCETextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCETextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCETextbox.FocusOnHover = false;
-            this.JrBootloadCETextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCETextbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCETextbox.Location = new System.Drawing.Point(4, 123);
-            this.JrBootloadCETextbox.MaxLength = 32767;
-            this.JrBootloadCETextbox.Multiline = false;
-            this.JrBootloadCETextbox.Name = "JrBootloadCETextbox";
-            this.JrBootloadCETextbox.ReadOnly = false;
-            this.JrBootloadCETextbox.Size = new System.Drawing.Size(111, 29);
-            this.JrBootloadCETextbox.TabIndex = 24;
-            this.JrBootloadCETextbox.Text = "CE:";
-            this.JrBootloadCETextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCETextbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCBATextbox
-            // 
-            this.JrBootloadCBATextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCBATextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCBATextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCBATextbox.FocusOnHover = false;
-            this.JrBootloadCBATextbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCBATextbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCBATextbox.Location = new System.Drawing.Point(4, 33);
-            this.JrBootloadCBATextbox.MaxLength = 32767;
-            this.JrBootloadCBATextbox.Multiline = false;
-            this.JrBootloadCBATextbox.Name = "JrBootloadCBATextbox";
-            this.JrBootloadCBATextbox.ReadOnly = false;
-            this.JrBootloadCBATextbox.Size = new System.Drawing.Size(111, 29);
-            this.JrBootloadCBATextbox.TabIndex = 25;
-            this.JrBootloadCBATextbox.Text = "CB_A:";
-            this.JrBootloadCBATextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCBATextbox.UseSystemPasswordChar = false;
-            // 
-            // foreverTextBox2
-            // 
-            this.foreverTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.foreverTextBox2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foreverTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.foreverTextBox2.FocusOnHover = false;
-            this.foreverTextBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.foreverTextBox2.ForeColor = System.Drawing.Color.White;
-            this.foreverTextBox2.Location = new System.Drawing.Point(123, 3);
-            this.foreverTextBox2.MaxLength = 32767;
-            this.foreverTextBox2.Multiline = false;
-            this.foreverTextBox2.Name = "foreverTextBox2";
-            this.foreverTextBox2.ReadOnly = false;
-            this.foreverTextBox2.Size = new System.Drawing.Size(240, 29);
-            this.foreverTextBox2.TabIndex = 26;
-            this.foreverTextBox2.Text = "SMC Version:";
-            this.foreverTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.foreverTextBox2.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCGPSlot0Textbox
-            // 
-            this.JrBootloadCGPSlot0Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCGPSlot0Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCGPSlot0Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCGPSlot0Textbox.FocusOnHover = false;
-            this.JrBootloadCGPSlot0Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCGPSlot0Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCGPSlot0Textbox.Location = new System.Drawing.Point(123, 63);
-            this.JrBootloadCGPSlot0Textbox.MaxLength = 32767;
-            this.JrBootloadCGPSlot0Textbox.Multiline = false;
-            this.JrBootloadCGPSlot0Textbox.Name = "JrBootloadCGPSlot0Textbox";
-            this.JrBootloadCGPSlot0Textbox.ReadOnly = false;
-            this.JrBootloadCGPSlot0Textbox.Size = new System.Drawing.Size(170, 29);
-            this.JrBootloadCGPSlot0Textbox.TabIndex = 27;
-            this.JrBootloadCGPSlot0Textbox.Text = "CG Path Slot 0:";
-            this.JrBootloadCGPSlot0Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCGPSlot0Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCFPSlot1Textbox
-            // 
-            this.JrBootloadCFPSlot1Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCFPSlot1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCFPSlot1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCFPSlot1Textbox.FocusOnHover = false;
-            this.JrBootloadCFPSlot1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCFPSlot1Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCFPSlot1Textbox.Location = new System.Drawing.Point(123, 93);
-            this.JrBootloadCFPSlot1Textbox.MaxLength = 32767;
-            this.JrBootloadCFPSlot1Textbox.Multiline = false;
-            this.JrBootloadCFPSlot1Textbox.Name = "JrBootloadCFPSlot1Textbox";
-            this.JrBootloadCFPSlot1Textbox.ReadOnly = false;
-            this.JrBootloadCFPSlot1Textbox.Size = new System.Drawing.Size(170, 29);
-            this.JrBootloadCFPSlot1Textbox.TabIndex = 28;
-            this.JrBootloadCFPSlot1Textbox.Text = "CF Path Slot 1:";
-            this.JrBootloadCFPSlot1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCFPSlot1Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadCGPSlot1Textbox
-            // 
-            this.JrBootloadCGPSlot1Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadCGPSlot1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadCGPSlot1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadCGPSlot1Textbox.FocusOnHover = false;
-            this.JrBootloadCGPSlot1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadCGPSlot1Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadCGPSlot1Textbox.Location = new System.Drawing.Point(123, 122);
-            this.JrBootloadCGPSlot1Textbox.MaxLength = 32767;
-            this.JrBootloadCGPSlot1Textbox.Multiline = false;
-            this.JrBootloadCGPSlot1Textbox.Name = "JrBootloadCGPSlot1Textbox";
-            this.JrBootloadCGPSlot1Textbox.ReadOnly = false;
-            this.JrBootloadCGPSlot1Textbox.Size = new System.Drawing.Size(170, 29);
-            this.JrBootloadCGPSlot1Textbox.TabIndex = 29;
-            this.JrBootloadCGPSlot1Textbox.Text = "CG Path Slot 1:";
-            this.JrBootloadCGPSlot1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadCGPSlot1Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadLDV2Textbox
-            // 
-            this.JrBootloadLDV2Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadLDV2Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadLDV2Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadLDV2Textbox.FocusOnHover = false;
-            this.JrBootloadLDV2Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadLDV2Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadLDV2Textbox.Location = new System.Drawing.Point(299, 33);
-            this.JrBootloadLDV2Textbox.MaxLength = 32767;
-            this.JrBootloadLDV2Textbox.Multiline = false;
-            this.JrBootloadLDV2Textbox.Name = "JrBootloadLDV2Textbox";
-            this.JrBootloadLDV2Textbox.ReadOnly = false;
-            this.JrBootloadLDV2Textbox.Size = new System.Drawing.Size(64, 29);
-            this.JrBootloadLDV2Textbox.TabIndex = 30;
-            this.JrBootloadLDV2Textbox.Text = "LDV:";
-            this.JrBootloadLDV2Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadLDV2Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadPD2Textbox
-            // 
-            this.JrBootloadPD2Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadPD2Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadPD2Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadPD2Textbox.FocusOnHover = false;
-            this.JrBootloadPD2Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadPD2Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadPD2Textbox.Location = new System.Drawing.Point(299, 63);
-            this.JrBootloadPD2Textbox.MaxLength = 32767;
-            this.JrBootloadPD2Textbox.Multiline = false;
-            this.JrBootloadPD2Textbox.Name = "JrBootloadPD2Textbox";
-            this.JrBootloadPD2Textbox.ReadOnly = false;
-            this.JrBootloadPD2Textbox.Size = new System.Drawing.Size(64, 29);
-            this.JrBootloadPD2Textbox.TabIndex = 31;
-            this.JrBootloadPD2Textbox.Text = "PD:";
-            this.JrBootloadPD2Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadPD2Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadPD3Textbox
-            // 
-            this.JrBootloadPD3Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadPD3Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadPD3Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadPD3Textbox.FocusOnHover = false;
-            this.JrBootloadPD3Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadPD3Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadPD3Textbox.Location = new System.Drawing.Point(299, 122);
-            this.JrBootloadPD3Textbox.MaxLength = 32767;
-            this.JrBootloadPD3Textbox.Multiline = false;
-            this.JrBootloadPD3Textbox.Name = "JrBootloadPD3Textbox";
-            this.JrBootloadPD3Textbox.ReadOnly = false;
-            this.JrBootloadPD3Textbox.Size = new System.Drawing.Size(64, 29);
-            this.JrBootloadPD3Textbox.TabIndex = 33;
-            this.JrBootloadPD3Textbox.Text = "PD:";
-            this.JrBootloadPD3Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadPD3Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadLDV3Textbox
-            // 
-            this.JrBootloadLDV3Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadLDV3Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadLDV3Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadLDV3Textbox.FocusOnHover = false;
-            this.JrBootloadLDV3Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadLDV3Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadLDV3Textbox.Location = new System.Drawing.Point(299, 93);
-            this.JrBootloadLDV3Textbox.MaxLength = 32767;
-            this.JrBootloadLDV3Textbox.Multiline = false;
-            this.JrBootloadLDV3Textbox.Name = "JrBootloadLDV3Textbox";
-            this.JrBootloadLDV3Textbox.ReadOnly = false;
-            this.JrBootloadLDV3Textbox.Size = new System.Drawing.Size(64, 29);
-            this.JrBootloadLDV3Textbox.TabIndex = 32;
-            this.JrBootloadLDV3Textbox.Text = "LDV:";
-            this.JrBootloadLDV3Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadLDV3Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadPD1Textbox
-            // 
-            this.JrBootloadPD1Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadPD1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadPD1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadPD1Textbox.FocusOnHover = false;
-            this.JrBootloadPD1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadPD1Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadPD1Textbox.Location = new System.Drawing.Point(4, 153);
-            this.JrBootloadPD1Textbox.MaxLength = 32767;
-            this.JrBootloadPD1Textbox.Multiline = false;
-            this.JrBootloadPD1Textbox.Name = "JrBootloadPD1Textbox";
-            this.JrBootloadPD1Textbox.ReadOnly = false;
-            this.JrBootloadPD1Textbox.Size = new System.Drawing.Size(111, 29);
-            this.JrBootloadPD1Textbox.TabIndex = 34;
-            this.JrBootloadPD1Textbox.Text = "PD:";
-            this.JrBootloadPD1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadPD1Textbox.UseSystemPasswordChar = false;
-            // 
-            // JrBootloadLDV1Textbox
-            // 
-            this.JrBootloadLDV1Textbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrBootloadLDV1Textbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrBootloadLDV1Textbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrBootloadLDV1Textbox.FocusOnHover = false;
-            this.JrBootloadLDV1Textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrBootloadLDV1Textbox.ForeColor = System.Drawing.Color.White;
-            this.JrBootloadLDV1Textbox.Location = new System.Drawing.Point(123, 153);
-            this.JrBootloadLDV1Textbox.MaxLength = 32767;
-            this.JrBootloadLDV1Textbox.Multiline = false;
-            this.JrBootloadLDV1Textbox.Name = "JrBootloadLDV1Textbox";
-            this.JrBootloadLDV1Textbox.ReadOnly = false;
-            this.JrBootloadLDV1Textbox.Size = new System.Drawing.Size(240, 29);
-            this.JrBootloadLDV1Textbox.TabIndex = 35;
-            this.JrBootloadLDV1Textbox.Text = "LDV:";
-            this.JrBootloadLDV1Textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrBootloadLDV1Textbox.UseSystemPasswordChar = false;
-            // 
-            // hopeGroupBox1
-            // 
-            this.hopeGroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
-            this.hopeGroupBox1.Controls.Add(this.JrCpuKeyLabel);
-            this.hopeGroupBox1.Controls.Add(this.JrSourceDirectoryTextbox);
-            this.hopeGroupBox1.Controls.Add(this.JrCpuKeyTextbox);
-            this.hopeGroupBox1.Controls.Add(this.JrExtraDirectoryTextbox);
-            this.hopeGroupBox1.Controls.Add(this.JrLoadExtraButton);
-            this.hopeGroupBox1.Controls.Add(this.JrLoadSourceButton);
-            this.hopeGroupBox1.Controls.Add(this.foxButton1);
-            this.hopeGroupBox1.Controls.Add(this.foxButton5);
-            this.hopeGroupBox1.Controls.Add(this.foxButton7);
-            this.hopeGroupBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.hopeGroupBox1.ForeColor = System.Drawing.Color.White;
-            this.hopeGroupBox1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
-            this.hopeGroupBox1.Location = new System.Drawing.Point(15, 147);
-            this.hopeGroupBox1.Name = "hopeGroupBox1";
-            this.hopeGroupBox1.ShowText = false;
-            this.hopeGroupBox1.Size = new System.Drawing.Size(470, 123);
-            this.hopeGroupBox1.TabIndex = 18;
-            this.hopeGroupBox1.TabStop = false;
-            this.hopeGroupBox1.ThemeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            // 
-            // foxButton1
-            // 
-            this.foxButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foxButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.foxButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.foxButton1.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foxButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.foxButton1.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.foxButton1.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.foxButton1.EnabledCalc = true;
-            this.foxButton1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.foxButton1.ForeColor = System.Drawing.Color.White;
-            this.foxButton1.Location = new System.Drawing.Point(381, 49);
-            this.foxButton1.Name = "foxButton1";
-            this.foxButton1.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.foxButton1.Size = new System.Drawing.Size(83, 33);
-            this.foxButton1.TabIndex = 9;
-            this.foxButton1.Text = "Compare";
-            // 
-            // foxButton5
-            // 
-            this.foxButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foxButton5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.foxButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.foxButton5.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foxButton5.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.foxButton5.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.foxButton5.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.foxButton5.EnabledCalc = true;
-            this.foxButton5.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.foxButton5.ForeColor = System.Drawing.Color.White;
-            this.foxButton5.Location = new System.Drawing.Point(381, 13);
-            this.foxButton5.Name = "foxButton5";
-            this.foxButton5.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.foxButton5.Size = new System.Drawing.Size(83, 34);
-            this.foxButton5.TabIndex = 6;
-            this.foxButton5.Text = "Write Nand";
-            // 
-            // foxButton7
-            // 
-            this.foxButton7.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foxButton7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.foxButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.foxButton7.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.foxButton7.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.foxButton7.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.foxButton7.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.foxButton7.EnabledCalc = true;
-            this.foxButton7.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.foxButton7.ForeColor = System.Drawing.Color.White;
-            this.foxButton7.Location = new System.Drawing.Point(381, 84);
-            this.foxButton7.Name = "foxButton7";
-            this.foxButton7.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.foxButton7.Size = new System.Drawing.Size(83, 34);
-            this.foxButton7.TabIndex = 5;
-            this.foxButton7.Text = "Reload";
-            // 
-            // JrLoadSourceButton
-            // 
-            this.JrLoadSourceButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrLoadSourceButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.JrLoadSourceButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.JrLoadSourceButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrLoadSourceButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.JrLoadSourceButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.JrLoadSourceButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.JrLoadSourceButton.EnabledCalc = true;
-            this.JrLoadSourceButton.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.JrLoadSourceButton.ForeColor = System.Drawing.Color.White;
-            this.JrLoadSourceButton.Location = new System.Drawing.Point(6, 13);
-            this.JrLoadSourceButton.Name = "JrLoadSourceButton";
-            this.JrLoadSourceButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.JrLoadSourceButton.Size = new System.Drawing.Size(83, 34);
-            this.JrLoadSourceButton.TabIndex = 10;
-            this.JrLoadSourceButton.Text = "Load Source";
-            // 
-            // JrLoadExtraButton
-            // 
-            this.JrLoadExtraButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrLoadExtraButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.JrLoadExtraButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.JrLoadExtraButton.DisabledBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrLoadExtraButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.JrLoadExtraButton.DisabledTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.JrLoadExtraButton.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.JrLoadExtraButton.EnabledCalc = true;
-            this.JrLoadExtraButton.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.JrLoadExtraButton.ForeColor = System.Drawing.Color.White;
-            this.JrLoadExtraButton.Location = new System.Drawing.Point(6, 49);
-            this.JrLoadExtraButton.Name = "JrLoadExtraButton";
-            this.JrLoadExtraButton.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.JrLoadExtraButton.Size = new System.Drawing.Size(83, 34);
-            this.JrLoadExtraButton.TabIndex = 11;
-            this.JrLoadExtraButton.Text = "Load Extra";
-            // 
-            // JrExtraDirectoryTextbox
-            // 
-            this.JrExtraDirectoryTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrExtraDirectoryTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrExtraDirectoryTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrExtraDirectoryTextbox.FocusOnHover = false;
-            this.JrExtraDirectoryTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrExtraDirectoryTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrExtraDirectoryTextbox.Location = new System.Drawing.Point(95, 52);
-            this.JrExtraDirectoryTextbox.MaxLength = 32767;
-            this.JrExtraDirectoryTextbox.Multiline = false;
-            this.JrExtraDirectoryTextbox.Name = "JrExtraDirectoryTextbox";
-            this.JrExtraDirectoryTextbox.ReadOnly = true;
-            this.JrExtraDirectoryTextbox.Size = new System.Drawing.Size(280, 31);
-            this.JrExtraDirectoryTextbox.TabIndex = 37;
-            this.JrExtraDirectoryTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrExtraDirectoryTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrCpuKeyTextbox
-            // 
-            this.JrCpuKeyTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrCpuKeyTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrCpuKeyTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrCpuKeyTextbox.FocusOnHover = false;
-            this.JrCpuKeyTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrCpuKeyTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrCpuKeyTextbox.Location = new System.Drawing.Point(95, 86);
-            this.JrCpuKeyTextbox.MaxLength = 32767;
-            this.JrCpuKeyTextbox.Multiline = false;
-            this.JrCpuKeyTextbox.Name = "JrCpuKeyTextbox";
-            this.JrCpuKeyTextbox.ReadOnly = true;
-            this.JrCpuKeyTextbox.Size = new System.Drawing.Size(280, 31);
-            this.JrCpuKeyTextbox.TabIndex = 38;
-            this.JrCpuKeyTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrCpuKeyTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrSourceDirectoryTextbox
-            // 
-            this.JrSourceDirectoryTextbox.BackColor = System.Drawing.Color.Transparent;
-            this.JrSourceDirectoryTextbox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.JrSourceDirectoryTextbox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.JrSourceDirectoryTextbox.FocusOnHover = false;
-            this.JrSourceDirectoryTextbox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrSourceDirectoryTextbox.ForeColor = System.Drawing.Color.White;
-            this.JrSourceDirectoryTextbox.Location = new System.Drawing.Point(95, 15);
-            this.JrSourceDirectoryTextbox.MaxLength = 32767;
-            this.JrSourceDirectoryTextbox.Multiline = false;
-            this.JrSourceDirectoryTextbox.Name = "JrSourceDirectoryTextbox";
-            this.JrSourceDirectoryTextbox.ReadOnly = true;
-            this.JrSourceDirectoryTextbox.Size = new System.Drawing.Size(280, 31);
-            this.JrSourceDirectoryTextbox.TabIndex = 39;
-            this.JrSourceDirectoryTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.JrSourceDirectoryTextbox.UseSystemPasswordChar = false;
-            // 
-            // JrCpuKeyLabel
-            // 
-            this.JrCpuKeyLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JrCpuKeyLabel.ForeColor = System.Drawing.Color.White;
-            this.JrCpuKeyLabel.Location = new System.Drawing.Point(16, 90);
-            this.JrCpuKeyLabel.Name = "JrCpuKeyLabel";
-            this.JrCpuKeyLabel.Size = new System.Drawing.Size(73, 20);
-            this.JrCpuKeyLabel.TabIndex = 19;
-            this.JrCpuKeyLabel.Text = "CPU Key:";
             // 
             // MainForm
             // 
@@ -2190,6 +2254,7 @@
             this.foreverTabPage2.ResumeLayout(false);
             this.ConsoleOptionsTab.ResumeLayout(false);
             this.JRunnerTab.ResumeLayout(false);
+            this.hopeGroupBox1.ResumeLayout(false);
             this.JrBootLoadersGroupBox.ResumeLayout(false);
             this.JrBootstrapTabPage.ResumeLayout(false);
             this.JrBootloadersTab.ResumeLayout(false);
@@ -2198,7 +2263,6 @@
             this.JRXeBuildTabPage.ResumeLayout(false);
             this.JrHomeTab.ResumeLayout(false);
             this.JrNandGroupBox.ResumeLayout(false);
-            this.hopeGroupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2248,7 +2312,7 @@
         private ReaLTaiizor.Controls.FoxButton SendXNotifyButton;
         private ReaLTaiizor.Controls.HopeTextBox XNotifyTextbox;
         private ReaLTaiizor.Controls.Separator ConsoleOptionsSeperator2;
-        private ReaLTaiizor.Controls.FoxButton ttttttt;
+        private ReaLTaiizor.Controls.FoxButton UnlockAllAchievementsButton;
         private ReaLTaiizor.Controls.FoxButton ResetLedsButton;
         private ReaLTaiizor.Controls.FoxButton CloseTrayButton;
         private ReaLTaiizor.Controls.FoxButton JrWriteNandButton;
@@ -2319,6 +2383,9 @@
         private ReaLTaiizor.Controls.ForeverTextBox JrCpuKeyTextbox;
         private ReaLTaiizor.Controls.ForeverTextBox JrExtraDirectoryTextbox;
         private ReaLTaiizor.Controls.FoxLabel JrCpuKeyLabel;
+        private ReaLTaiizor.Controls.FoxButton SetFakeRRODButton;
+        private ReaLTaiizor.Controls.FoxButton UnlockAllAvatarAwardsButton;
+        private ReaLTaiizor.Controls.FoxButton LoadStealthServerButton;
     }
 }
 

@@ -14,7 +14,6 @@ namespace WinUsb
     ///  
     ///  (your home directory and release number may vary)
     /// <summary>
-
     sealed internal partial class WinUsbDevice
     {
         internal const uint DEVICE_SPEED = 1;
@@ -30,8 +29,6 @@ namespace WinUsb
             AUTO_FLUSH,
             RAW_IO,
         }
-
-
 
         internal enum USB_DEVICE_SPEED
         {

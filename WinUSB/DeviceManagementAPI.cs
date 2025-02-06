@@ -7,7 +7,6 @@ namespace WinUsb
     // API declarations relating to device management (SetupDixxx and 
     // RegisterDeviceNotification functions).   
     /// </summary>
-
     sealed internal partial class DeviceManagement
     {
         // from dbt.h

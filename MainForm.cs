@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
 using GhostStudio.Constants;
@@ -13,11 +14,12 @@ namespace GhostStudio
     public partial class MainForm : LostForm
     {
         #region Variables
-        protected bool firstRun;
+        protected bool firstRun, isDevOrRGLoader;
+        protected uint xamFreeMemory = 0x81AA1D30;
         protected Timer tempTimer, titleIdTimer;
         protected IXboxConsole jtag;
         #endregion
-
+        
         public MainForm()
         {
             InitializeComponent();
@@ -35,7 +37,7 @@ namespace GhostStudio
 
                 //string regexedMonitor = Regex.Replace(jtag.GetDMVersion(), @"\d+\.\d+\.(\d+)\.\d+", "$1");
 
-                jtag.XNotify("Connected to GhostStudio!", XNotifyType.FlashingXboxConsole);
+                jtag.XNotify("Connected to GhostStudio!", XNotifyType.FlashingHappyFace);
                 CpuKeyTextbox.Text = $"CPU Key: {jtag.GetCPUKey()}";
                 DashboardTextbox.Text = $"Dashboard: {jtag.GetKernalVersion().ToString()}";
 
@@ -114,7 +116,7 @@ namespace GhostStudio
         #endregion
 
         #region Methods
-        private void ShowMessageBox(string message, MessageBoxButtons button = MessageBoxButtons.OK) => MessageBox.Show(message, "GhostStudio", button);
+        public static void ShowMessageBox(string message, MessageBoxButtons button = MessageBoxButtons.OK, MessageBoxIcon Icon = MessageBoxIcon.None) => MessageBox.Show(message, "GhostStudio", button);
 
         private void ConsoleNotConnected() => ShowMessageBox("Failed to connect to console! Please ensure that you have JRPC2.xex or Neighborhood is connected.");
 
@@ -136,6 +138,119 @@ namespace GhostStudio
             {
                 InitConnection();
             }
+        }
+
+        private uint XAMFreeMemory()
+        {
+            if (jtag.IsConnected() && jtag.ReadUInt32(xamFreeMemory) != 0)
+            {
+                xamFreeMemory = 0x81D48680;
+                isDevOrRGLoader = true;
+            }
+
+            return xamFreeMemory;
+        }
+
+        private uint LocateXUserAwardAvatarAssets()
+        {
+            byte[] targetSequence = { 0x60, 0x84, 0x00, 0x71 };
+            byte[] bytes = jtag.GetMemory(0x82000000, 0x3000000);
+
+            for (int i = 0; i <= bytes.Length - targetSequence.Length; i++)
+            {
+                bool match = true;
+                for (int j = 0; j < targetSequence.Length; j++)
+                {
+                    if (bytes[i + j] != targetSequence[j])
+                    {
+                        match = false;
+                        break;
+                    }
+                }
+
+                uint address = 0x82000000 + (uint)i;
+                if (match)
+                {
+                    uint address2 = address - 0x8;
+                    byte[] testBytes = jtag.GetMemory(address2, 4);
+                    byte[] target = { 0x38, 0xE0, 0x00, 0x08 };
+
+                    if (testBytes.Length == target.Length && testBytes.SequenceEqual(target))
+                    {
+                        return address;
+                    }
+                }
+            }
+
+            return 0;
+        }
+
+        private uint LocateXUserWriteAchievements()
+        {
+            byte[] targetSequence = { 0x60, 0x84, 0x00, 0x08 };
+            byte[] bytes = jtag.GetMemory(0x82000000, 0x3000000);
+
+            for (int i = 0; i <= bytes.Length - targetSequence.Length; i++)
+            {
+                bool match = true;
+                for (int j = 0; j < targetSequence.Length; j++)
+                {
+                    if (bytes[i + j] != targetSequence[j])
+                    {
+                        match = false;
+                        break;
+                    }
+                }
+
+                uint address = 0x82000000 + (uint)i;
+                if (match)
+                {
+                    uint address2 = address - 0x8;
+                    byte[] testBytes = jtag.GetMemory(address2, 4);
+                    byte[] target = { 0x38, 0xE0, 0x00, 0x08 };
+
+                    if (testBytes.Length == target.Length && testBytes.SequenceEqual(target))
+                    {
+                        return address;
+                    }
+                }
+            }
+
+            return 0;
+        }
+
+        private void AwardAvatarAsset(uint avatarAssestCallAddr, uint assetIdPtr, uint overlappedPtr, int awardCount)
+        {
+            jtag.WriteUInt32(overlappedPtr, 0);
+            for (int i = 0; i <  awardCount; i++)
+            {
+                jtag.WriteUInt64(assetIdPtr, (ulong)i);
+                jtag.CallVoid(avatarAssestCallAddr, 1, assetIdPtr, overlappedPtr);
+
+                while (jtag.ReadUInt32(overlappedPtr) != 0)
+                {
+                    Thread.Sleep(30);
+                }
+            }
+
+            Thread.Sleep(100);
+        }
+
+        private void AwardAchievements(uint achievementCallAddr, uint achievementIdPtr, uint overlappedPtr, int achievementCount)
+        {
+            jtag.WriteUInt32(overlappedPtr, 0);
+            for (int i = 0; i < achievementCount; i++)
+            {
+                jtag.WriteUInt64(achievementIdPtr, (ulong)i);
+                jtag.CallVoid(achievementCallAddr, 1, achievementIdPtr, overlappedPtr);
+
+                while (jtag.ReadUInt32(overlappedPtr) != 0)
+                {
+                    Thread.Sleep(30);
+                }
+            }
+
+            Thread.Sleep(100);
         }
         #endregion
 
@@ -215,9 +330,62 @@ namespace GhostStudio
             }
         }
 
-        private void ttttttt_Click(object sender, EventArgs e)
+        private void UnlockAllAvatarAwardsButton_Click(object sender, EventArgs e)
         {
-            ShowMessageBox("This feature has been implemented yet!");
+            if (jtag.IsConnected())
+            {
+                try
+                {
+                    uint callAddress = LocateXUserAwardAvatarAssets();
+                    uint freeMemory = XAMFreeMemory() + 0x20;
+
+                    if (callAddress != 0)
+                    {
+                        AwardAvatarAsset(callAddress - 0x24, freeMemory, freeMemory + 8, 35);
+                    }
+                    else
+                    {
+                        ShowMessageBox("Failed to find the function address! Check if the game has avatar awards.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("ERROR: ", ex.Message, ex.StackTrace);
+                }
+
+                return;
+            }
+
+            ConsoleNotConnected();
+        }
+
+        private void UnlockAllAchievementsButton_Click(object sender, EventArgs e)
+        {
+            if (jtag.IsConnected())
+            {
+                try
+                {
+                    uint callAddress = LocateXUserWriteAchievements();
+                    uint freeMemory = XAMFreeMemory();
+
+                    if (callAddress != 0)
+                    {
+                        AwardAchievements(callAddress - 0x24, freeMemory, freeMemory + 8, 101);
+                    }
+                    else
+                    {
+                        ShowMessageBox("Failed to find the function address!");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("ERROR: ", ex.Message, ex.StackTrace);
+                }
+
+                return;
+            }
+
+            ConsoleNotConnected();
         }
 
         private void RestartWarmButton_Click(object sender, EventArgs e)

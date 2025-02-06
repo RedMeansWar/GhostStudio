@@ -6,7 +6,7 @@
         Dashboard = 0xFFFE07D1,
         XEXMenu = 0xFFFF0055,
         XEXMenuAlt = 0xC0DE9999,
-        XSHELL = 0xFFFE07FF,
+        XShell = 0xFFFE07FF,
 
         // Call Of Duty
         COD2 = 0x415607D1,

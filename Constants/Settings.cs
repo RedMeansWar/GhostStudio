@@ -10,11 +10,15 @@ namespace GhostStudio.Constants
 {
     public class Settings
     {
+        private static string _ghostFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "GhostStudio");
+
         public bool AutoConnectToConsole { get; set; } = false;
         public bool ShowTempsInFahrenheit { get; set; } = false;
         public string GamesDirectory { get; set; } = "Hdd:\\Games\\";
         public string HomebrewDirectory { get; set; } = "Hdd:\\Homebrew\\";
         public string PluginDirectory { get; set; } = "Hdd:\\Plugins\\";
+        public string RootHddDirectory { get; set; } = "Hdd:\\";
+        public string BackupDirectory { get; set; } = Path.Combine(_ghostFolder, "Backup");
     }
 
     public static class SettingsManager
@@ -86,7 +90,9 @@ namespace GhostStudio.Constants
                     ShowTempsInFahrenheit = false,
                     GamesDirectory = "Hdd:\\Games\\",
                     HomebrewDirectory = "Hdd:\\Homebrew\\",
-                    PluginDirectory = "Hdd:\\Plugins\\"
+                    PluginDirectory = "Hdd:\\Plugins\\",
+                    RootHddDirectory = "Hdd:\\",
+                    BackupDirectory = Path.Combine(_ghostFolder, "Backups")
                 };
 
                 SaveSettings();

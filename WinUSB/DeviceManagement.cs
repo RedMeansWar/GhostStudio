@@ -7,7 +7,6 @@ namespace WinUsb
     ///  <summary>
     ///  Routines for detecting devices and receiving device notifications.
     ///  </summary>
-
     sealed internal partial class DeviceManagement
     {
         ///  <summary>
