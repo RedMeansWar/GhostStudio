@@ -80,6 +80,10 @@
     <Compile Include="Constants\Json.cs" />
     <Compile Include="Constants\Settings.cs" />
     <Compile Include="Constants\UserFolders.cs" />
+    <Compile Include="EndianIO\EndianIO.cs" />
+    <Compile Include="EndianIO\EndianReader.cs" />
+    <Compile Include="EndianIO\EndianStyle.cs" />
+    <Compile Include="EndianIO\EndianWriter.cs" />
     <Compile Include="Enums\BlackOps2Offset.cs" />
     <Compile Include="Enums\BlackOps2ZombiesOffset.cs" />
     <Compile Include="Enums\CategoryType.cs" />
@@ -174,8 +178,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures\KVInformation.cs" />
+    <Compile Include="Utilities\Blocks.cs" />
+    <Compile Include="Utilities\Bytes.cs" />
     <Compile Include="Utilities\CallOfDutyUtils.cs" />
-    <Compile Include="Utilities\CPUKeyUtils.cs" />
+    <Compile Include="Utilities\DateTimeExtension.cs" />
+    <Compile Include="Utilities\FileExtension.cs" />
+    <Compile Include="Utilities\Hashing.cs" />
+    <Compile Include="Utilities\KeyVaultUtils.cs" />
     <Compile Include="Utilities\ConsoleUtility.cs" />
     <Compile Include="Utilities\DataExtension.cs" />
     <Compile Include="Utilities\GtaUtils.cs" />
